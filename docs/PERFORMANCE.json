@@ -1,0 +1,28 @@
+{
+  "entries": 237,
+  "assets": 243,
+  "familyPhotos": 10,
+  "referenceSourceBytes": 54467396,
+  "familyOriginalBytes": 13224882,
+  "allLargeJpegBytes": 40745808,
+  "allLargeWebpBytes": 33219924,
+  "primaryMapJpegBytes": 1267400,
+  "primaryMapWebpBytes": 1070214,
+  "publishedMediaBytes": 115565752,
+  "familyLargeWebpBytes": 1117098,
+  "familyPublishedBytes": 4269089,
+  "gzipIndexes": {
+    "images.json": {
+      "raw": 372413,
+      "gzip": 40251
+    },
+    "audio.json": {
+      "raw": 18206,
+      "gzip": 6828
+    },
+    "world.geojson": {
+      "raw": 218498,
+      "gzip": 75184
+    }
+  }
+}

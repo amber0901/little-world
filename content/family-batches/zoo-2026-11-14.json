@@ -1,0 +1,230 @@
+{
+  "batchId": "zoo-2026-11-14",
+  "receivedDate": "2026-11-14",
+  "capturedDate": null,
+  "locationLabel": "动物园实拍（用户提供）",
+  "artist": "用户与孩子的亲子实拍",
+  "license": "用户提供，授权本项目使用；未另授开放许可",
+  "photos": [
+    {
+      "id": "zoo-20261114-01",
+      "sourceFile": "materials/family/2026-11-14-zoo/originals/ce17f32a27037c85b1e730dece95b250.jpg",
+      "originalName": "ce17f32a27037c85b1e730dece95b250.jpg",
+      "sha256": "8d2edce948a4fb5caf40139133707d94ad76c0c47f3442e54e4a00f14a14afca",
+      "entryId": "pelican-family",
+      "label": "鹈鹕",
+      "identificationLevel": "genus",
+      "crop": [
+        0.12,
+        0.55,
+        0.76,
+        0.29
+      ],
+      "thumbFocus": [
+        0.5,
+        0.5
+      ],
+      "role": "photo",
+      "caption": "亲子实拍 · 鹈鹕",
+      "identificationNote": "具体种类尚未确认，按属或科级收录；地理位置表示类群分布示例。"
+    },
+    {
+      "id": "zoo-20261114-02",
+      "sourceFile": "materials/family/2026-11-14-zoo/originals/0524157b2b8f06ae6e32162f93aa9d64.jpg",
+      "originalName": "0524157b2b8f06ae6e32162f93aa9d64.jpg",
+      "sha256": "c726a4845824e9976db83d7c2a196ec96aab01cd71ada910d758dfbb182f9c7b",
+      "entryId": "white-rhino",
+      "label": "白犀知识牌",
+      "identificationLevel": "species",
+      "crop": [
+        0,
+        0.39,
+        0.99,
+        0.61
+      ],
+      "thumbFocus": [
+        0.5,
+        0.4
+      ],
+      "role": "sign",
+      "caption": "园区知识牌 · 白犀（牌面图）",
+      "identificationNote": "依据园区知识牌识别，不代表拍到活体白犀。"
+    },
+    {
+      "id": "zoo-20261114-03",
+      "sourceFile": "materials/family/2026-11-14-zoo/originals/a8b337fe27d6673f83dd3b87268913e8.jpg",
+      "originalName": "a8b337fe27d6673f83dd3b87268913e8.jpg",
+      "sha256": "a862791d994dfd1ec92403e5cd78a4874baf3bd4920181cec4bfacf5bc54d17d",
+      "entryId": "giant-anteater",
+      "label": "大食蚁兽",
+      "identificationLevel": "species",
+      "crop": [
+        0.23,
+        0.48,
+        0.66,
+        0.34
+      ],
+      "thumbFocus": [
+        0.5,
+        0.5
+      ],
+      "role": "photo",
+      "caption": "亲子实拍 · 大食蚁兽",
+      "identificationNote": "按可见特征识别；不推断亚种。"
+    },
+    {
+      "id": "zoo-20261114-04",
+      "sourceFile": "materials/family/2026-11-14-zoo/originals/3922ae4187593fd2d16fd3fdc3d5dedb.jpg",
+      "originalName": "3922ae4187593fd2d16fd3fdc3d5dedb.jpg",
+      "sha256": "436e8d6ce0473ed404f5ed702b4f6fe364dee11f512771cfd9aab394629cfb41",
+      "entryId": "meerkat",
+      "label": "狐獴",
+      "identificationLevel": "species",
+      "crop": [
+        0.18,
+        0.32,
+        0.66,
+        0.57
+      ],
+      "thumbFocus": [
+        0.5,
+        0.3
+      ],
+      "role": "photo",
+      "caption": "亲子实拍 · 狐獴",
+      "identificationNote": "按可见特征识别；不推断亚种。"
+    },
+    {
+      "id": "zoo-20261114-05",
+      "sourceFile": "materials/family/2026-11-14-zoo/originals/ee8814ed75b911ba72a03056ad460cd0.jpg",
+      "originalName": "ee8814ed75b911ba72a03056ad460cd0.jpg",
+      "sha256": "15b4e81b52f09fb1dd44242e0b316104d28bf21671a82803efd09f80c116b1e9",
+      "entryId": "coati-family",
+      "label": "长鼻浣熊",
+      "identificationLevel": "genus",
+      "crop": [
+        0.17,
+        0.48,
+        0.79,
+        0.27
+      ],
+      "thumbFocus": [
+        0.42,
+        0.5
+      ],
+      "role": "photo",
+      "caption": "亲子实拍 · 长鼻浣熊",
+      "identificationNote": "具体种类尚未确认，按属或科级收录；地理位置表示类群分布示例。"
+    },
+    {
+      "id": "zoo-20261114-06",
+      "sourceFile": "materials/family/2026-11-14-zoo/originals/8a78e0098606b16d60da70e372903494.jpg",
+      "originalName": "8a78e0098606b16d60da70e372903494.jpg",
+      "sha256": "62bca3f3a7c3a6d865dbe1a59e95773874c57dfdade0d39f048324cc1e09067b",
+      "entryId": "toucan-family",
+      "label": "巨嘴鸟",
+      "identificationLevel": "genus",
+      "crop": [
+        0.26,
+        0.35,
+        0.5,
+        0.43
+      ],
+      "thumbFocus": [
+        0.55,
+        0.3
+      ],
+      "role": "photo",
+      "caption": "亲子实拍 · 巨嘴鸟",
+      "identificationNote": "具体种类尚未确认，按属或科级收录；地理位置表示类群分布示例。"
+    },
+    {
+      "id": "zoo-20261114-07",
+      "sourceFile": "materials/family/2026-11-14-zoo/originals/aa8130551cddc65f69e308d98a0f8045.jpg",
+      "originalName": "aa8130551cddc65f69e308d98a0f8045.jpg",
+      "sha256": "074f1204989212a65af41a797f9c1938532eb8326c78ee5a288bde3e3d2885a7",
+      "entryId": "tortoise-family",
+      "label": "陆龟",
+      "identificationLevel": "family",
+      "crop": [
+        0.34,
+        0.53,
+        0.4,
+        0.25
+      ],
+      "thumbFocus": [
+        0.5,
+        0.5
+      ],
+      "role": "photo",
+      "caption": "亲子实拍 · 陆龟",
+      "identificationNote": "具体种类尚未确认，按属或科级收录；地理位置表示类群分布示例。"
+    },
+    {
+      "id": "zoo-20261114-08",
+      "sourceFile": "materials/family/2026-11-14-zoo/originals/639daf2c7f71ff3060640b90f67748e2.jpg",
+      "originalName": "639daf2c7f71ff3060640b90f67748e2.jpg",
+      "sha256": "7813b81381516e29e4a0f0eb7299c6e6670c19df626b8bc7aab24de16ba50fd3",
+      "entryId": "capybara",
+      "label": "水豚",
+      "identificationLevel": "species",
+      "crop": [
+        0.08,
+        0.57,
+        0.85,
+        0.3
+      ],
+      "thumbFocus": [
+        0.65,
+        0.55
+      ],
+      "role": "photo",
+      "caption": "亲子实拍 · 水豚",
+      "identificationNote": "按可见特征识别；不推断亚种。"
+    },
+    {
+      "id": "zoo-20261114-09",
+      "sourceFile": "materials/family/2026-11-14-zoo/originals/9431019e93a79c7b9fff452b725808ee.jpg",
+      "originalName": "9431019e93a79c7b9fff452b725808ee.jpg",
+      "sha256": "8207f175e0f8daf40612f8c65be2253a21c2b7ee7df740a6c7539f4a2fa6ed99",
+      "entryId": "hippo",
+      "label": "河马",
+      "identificationLevel": "species",
+      "crop": [
+        0.03,
+        0.36,
+        0.94,
+        0.47
+      ],
+      "thumbFocus": [
+        0.23,
+        0.53
+      ],
+      "role": "photo",
+      "caption": "亲子实拍 · 河马",
+      "identificationNote": "按可见特征识别；不推断亚种。"
+    },
+    {
+      "id": "zoo-20261114-10",
+      "sourceFile": "materials/family/2026-11-14-zoo/originals/a1453935640c416766b6d5cd66f5d28e.jpg",
+      "originalName": "a1453935640c416766b6d5cd66f5d28e.jpg",
+      "sha256": "8f180c9db2ec4286e948a2fd671bdc695cc9edc19e05453842d50f21107c2f95",
+      "entryId": "peacock",
+      "label": "蓝孔雀",
+      "identificationLevel": "species",
+      "crop": [
+        0.06,
+        0.34,
+        0.58,
+        0.48
+      ],
+      "thumbFocus": [
+        0.58,
+        0.28
+      ],
+      "role": "photo",
+      "caption": "亲子实拍 · 蓝孔雀",
+      "identificationNote": "按可见特征识别；不推断亚种。"
+    }
+  ]
+}

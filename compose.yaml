@@ -1,0 +1,16 @@
+services:
+  world-explorer:
+    build:
+      context: .
+    image: little-world-explorer:latest
+    container_name: little-world-explorer
+    ports:
+      - "${PORT:-8091}:8080"
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
