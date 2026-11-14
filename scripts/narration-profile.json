@@ -1,0 +1,12 @@
+{
+  "provider": "tencent-cloud",
+  "voiceId": 403000,
+  "voiceName": "云小朵",
+  "speed": -0.65,
+  "sampleRate": 24000,
+  "modelType": 1,
+  "volume": 0,
+  "ssml": {"version": 1, "paragraphBreakMs": 300},
+  "processing": {"version": 1, "gainOnly": true, "integratedLufs": -20, "truePeakDb": -2},
+  "output": {"codec": "aac", "container": "m4a", "bitrate": "64k", "channels": 1}
+}

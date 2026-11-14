@@ -1,0 +1,120 @@
+{
+  "version": "2.3.0",
+  "date": "2026-11-15",
+  "profile": {
+    "provider": "tencent-cloud",
+    "voiceId": 403000,
+    "voiceName": "云小朵",
+    "speed": -0.65,
+    "sampleRate": 24000,
+    "modelType": 1,
+    "volume": 0,
+    "ssml": {
+      "version": 1,
+      "paragraphBreakMs": 300
+    },
+    "processing": {
+      "version": 1,
+      "gainOnly": true,
+      "integratedLufs": -20,
+      "truePeakDb": -2
+    },
+    "output": {
+      "codec": "aac",
+      "container": "m4a",
+      "bitrate": "64k",
+      "channels": 1
+    }
+  },
+  "profileHash": "bf4c06a02e50180a3b1b10c7ad59e52b5ae101a07a28ee505019ccb3cf46c3c2",
+  "storyRecordings": 359,
+  "countryIntroductions": 700,
+  "fullDecodingChecks": 1059,
+  "oldVoiceUrlsReused": 0,
+  "publicM4aFiles": 1059,
+  "reusableFromGitWithoutPrivateCache": 1059,
+  "totalDurationSeconds": 12139.5,
+  "totalBytes": 98291991,
+  "sampleLevels": {
+    "hippo": {
+      "input_i": "-22.58",
+      "input_tp": "-2.08",
+      "input_lra": "4.70"
+    },
+    "context-KEN-hippo": {
+      "input_i": "-20.03",
+      "input_tp": "-3.73",
+      "input_lra": "1.60"
+    },
+    "rhinoceros-beetle": {
+      "input_i": "-21.87",
+      "input_tp": "-1.64",
+      "input_lra": "4.60"
+    },
+    "lake-superior": {
+      "input_i": "-21.87",
+      "input_tp": "-1.89",
+      "input_lra": "6.30"
+    },
+    "lake-baikal": {
+      "input_i": "-21.07",
+      "input_tp": "-2.04",
+      "input_lra": "6.40"
+    },
+    "everest": {
+      "input_i": "-21.22",
+      "input_tp": "-2.00",
+      "input_lra": "6.60"
+    },
+    "eiffel-tower": {
+      "input_i": "-21.09",
+      "input_tp": "-1.99",
+      "input_lra": "5.10"
+    },
+    "khufu-pyramid": {
+      "input_i": "-20.56",
+      "input_tp": "-1.79",
+      "input_lra": "4.40"
+    },
+    "mariana-trench": {
+      "input_i": "-21.37",
+      "input_tp": "-1.92",
+      "input_lra": "6.80"
+    }
+  },
+  "localTranscriptionSampleCount": 14,
+  "transcriptionLimit": "Offline small-model transcription checks content completeness; homophone recognition errors do not establish pronunciation errors or subjective voice quality.",
+  "browserReview": {
+    "productionPreview": "http://127.0.0.1:4173/",
+    "viewports": [
+      [
+        1366,
+        900
+      ],
+      [
+        820,
+        1180
+      ],
+      [
+        1180,
+        820
+      ]
+    ],
+    "horizontalOverflow": false,
+    "brokenDisplayedImages": 0,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "passed": [
+      "country-introduction-to-shared-story",
+      "full-story-end",
+      "pause-resume-replay",
+      "switch-country-cancels-old-queue",
+      "world-search-clears-country-introduction",
+      "beetle",
+      "landmark",
+      "long-record-story-end",
+      "marine"
+    ],
+    "physicalIpadSafariTested": false
+  }
+}

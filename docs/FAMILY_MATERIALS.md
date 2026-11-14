@@ -36,10 +36,10 @@
 3. 新批次原图放入独立的`materials/family/<批次>/originals`，维护`content/family-batches/<批次>.json`。沿用`crop`（旋转修正后的归一化框）、`thumbFocus`、`entryId`、`role`和`identificationLevel`字段，记录SHA256和来源；不要写入用户账户路径。
 4. 将必要的新动物介绍加入独立数据模块，再在`src/data.js`合并。改写为适合5岁孩子听的短句，保留知识依据和识别不确定性。
 5. 执行`npm run assets:images`。脚本生成160像素地图图、320像素列表图、640/1280长边详情图及JPEG兼容版本。已有衍生图可复用；缺少原图且裁切方案有变时，需要恢复原图再处理。
-6. 执行`node scripts/generate-narration.mjs`，按文字哈希只录制新增或变更的讲解。音频文件名含实际文件内容哈希。
+6. 执行`node scripts/generate-narration.mjs`，按文字与音色配置指纹只录制新增或变更的讲解，复用已发布录音及本地缓存。音频文件名含实际文件内容哈希，详见[语音制作说明](VOICE_PRODUCTION.md)。
 7. 执行`node scripts/write-credits.mjs`、`npm test`、`npm run check:assets`、`npm run build`，再用浏览器检查照片切换、放大、语音和国家联动。
 
-图像制作工具需要Python和`requirements-media.txt`中的Pillow；讲解制作需要macOS Tingting及FFmpeg。这些都是维护工具，Linux/Nginx运行项目不需要安装它们。项目没有文件上传控件、上传接口或素材管理页面。
+图像制作工具需要Python和`requirements-media.txt`中的Pillow；讲解制作需要Python 3、FFmpeg和本地腾讯云凭据，使用与百家姓相同的云小朵女童声。这些都是维护工具，Linux/Nginx运行项目不需要安装它们。项目没有文件上传控件、上传接口或素材管理页面。
 
 ## 授权与展示
 

@@ -5,6 +5,8 @@ test-results
 playwright-report
 docs
 .env
+.env.*
+__pycache__
 .DS_Store
 materials
 content

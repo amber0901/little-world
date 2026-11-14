@@ -17,12 +17,12 @@
       "gzip": 46888
     },
     "audio.json": {
-      "raw": 21008,
-      "gzip": 7787
+      "raw": 21009,
+      "gzip": 7797
     },
     "audio-contexts.json": {
-      "raw": 53756,
-      "gzip": 15070
+      "raw": 53757,
+      "gzip": 15083
     },
     "world.geojson": {
       "raw": 218498,
@@ -31,6 +31,6 @@
   },
   "storyAudioCount": 359,
   "countryIntroductionCount": 700,
-  "storyAudioBytes": 50929034,
-  "countryIntroductionBytes": 22018572
+  "storyAudioBytes": 67777148,
+  "countryIntroductionBytes": 30514843
 }

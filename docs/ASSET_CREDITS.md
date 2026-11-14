@@ -290,4 +290,4 @@
 | 眼镜凯门鳄 · 参考照片 | Berrucomons | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Caiman_crocodilus_llanos.JPG) |
 | 加拉帕戈斯象龟 · 加拉帕戈斯象龟 · 类群参考照片 | Mfield, Matthew Field, http://www.photography.mattfield.com | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Galapagos_giant_tortoise_Geochelone_elephantopus.jpg) |
 
-底图：Natural Earth 1:110m Admin 0 Countries，Public Domain。中文讲解：原创文字，使用macOS Tingting制作，句间约420ms停顿，AAC/M4A。所有图像与音频为本地资源，运行时不向素材来源网站请求。
+底图：Natural Earth 1:110m Admin 0 Countries，Public Domain。中文讲解：原创文字，使用腾讯云云小朵女童声制作（403000、语速−0.65、24kHz），保留原生韵律，AAC/M4A。所有图像与音频为本地资源，运行时不向素材来源网站请求。
