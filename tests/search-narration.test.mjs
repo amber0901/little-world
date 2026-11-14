@@ -4,8 +4,27 @@ import {entries,countries,continents,oceans} from '../src/data.js';
 import {searchContent} from '../src/search.js';
 import {countryIntroduction,storyKey,narrationText} from '../src/utils.js';
 import {NarrationPlayer} from '../src/narration-player.js';
-import {relatedEntries,mapRealm} from '../src/utils.js';
+import {relatedEntries,mapRealm,mapPointForEntry} from '../src/utils.js';
 const catalog={entries,countries,continents,oceans};
+test('all six requested animal names resolve to distinct appropriate content without duplicate species',()=>{
+ const expected={'凯门鳄':'spectacled-caiman','长戟大兜虫':'hercules-beetle','独角仙':'rhinoceros-beetle','毛象大兜虫':'elephant-beetle','加拉帕戈斯象龟':'galapagos-giant-tortoise','亚达伯拉象龟':'aldabra-giant-tortoise'};
+ for(const [query,id] of Object.entries(expected)){
+  assert.equal(searchContent(catalog,{query})[0]?.id,id,query);
+  assert.equal(entries.filter(e=>e.id===id).length,1);
+ }
+ const galapagos=entries.find(e=>e.id==='galapagos-giant-tortoise'),aldabra=entries.find(e=>e.id==='aldabra-giant-tortoise');
+ assert.deepEqual(galapagos.countries,['ECU']);assert.deepEqual(aldabra.countries,['SYC']);
+ assert.equal(galapagos.taxonLevel,'species-complex');assert.match(countryIntroduction(galapagos,countries.find(c=>c.id==='ECU')),/这一类动物/);
+ for(const id of ['elephant-beetle','aldabra-giant-tortoise']){const e=entries.find(e=>e.id===id);assert.ok(narrationText(e).includes(e.alsoKnownAs[0]));}
+});
+test('island animals retain their actual island positions when selected through a country',()=>{
+ for(const [id,placeId] of [['galapagos-giant-tortoise','ECU'],['aldabra-giant-tortoise','SYC'],['blue-footed-booby','ECU']]){
+  const e=entries.find(x=>x.id===id),place={...countries.find(c=>c.id===placeId),type:'country'};
+  assert.deepEqual(mapPointForEntry(e,place,false),{coords:e.coords,associationPoint:false});
+ }
+ const hippo=entries.find(e=>e.id==='hippo'),kenya={...countries.find(c=>c.id==='KEN'),type:'country'};
+ assert.deepEqual(mapPointForEntry(hippo,kenya,false),{coords:kenya.coords,associationPoint:true});
+});
 test('search ranks names first and finds content through country links, English and facts',()=>{
  assert.equal(searchContent(catalog,{query:'河马'})[0].id,'hippo');
  assert.equal(searchContent(catalog,{query:'  EIFFEL   TOWER '})[0].id,'eiffel-tower');

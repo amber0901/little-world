@@ -53,7 +53,7 @@ export default function App(){
     if(fromSearch||(context&&!relatedEntries(context,entries,countries).some(e=>e.id===item.id)))setContext(null);
     if(category!=='all'&&category!==item.type)setCategory(item.type);
     setActive(item);setModal(null);setQuery('');
-    if(fly){if(context&&!fromSearch&&['country','ocean'].includes(context.type)&&['animal','marine','beetle'].includes(item.type))travel(context,context.type==='ocean'?2.1:Math.max(3,focus?.zoom||3.2));else travel(item,item.type==='marine'?2.8:4);}
+    if(fly){if(context&&!fromSearch&&!item.islandLabel&&['country','ocean'].includes(context.type)&&['animal','marine','beetle'].includes(item.type))travel(context,context.type==='ocean'?2.1:Math.max(3,focus?.zoom||3.2));else travel(item,item.type==='marine'?2.8:4);}
   };
   const openCountry=(country,zoom=3.2)=>{
     setOriginCountry(country.flag?country:null);
@@ -92,7 +92,7 @@ export default function App(){
           <div className="detail-toolbar"><button className="text-button" onClick={closeDetail}><ArrowLeft size={16}/>{context&&active.id!==context.id?'返回这个地方':'返回地图'}</button><button className="fold-toggle text-button" onClick={()=>setPanelFolded(v=>!v)}>{panelFolded?'展开介绍':'收起介绍'}</button><button className="icon-button" aria-label="关闭介绍" onClick={()=>{setOriginCountry(null);setActive(null);setContext(null);}}><X size={19}/></button></div>
           {!panelFolded&&<>
           {active.type!=='area'&&<PhotoGallery item={active} images={images} onView={photo=>{setViewPhoto(photo);setModal('photo');}}/>}
-          <div className="detail-content"><span className="detail-category">{kind}</span><h2>{active.name}</h2>{active.en&&<p className="english-name">{active.en}</p>}{active.region&&<p className="location"><MapPin size={14}/>{active.region}</p>}
+          <div className="detail-content"><span className="detail-category">{kind}</span><h2>{active.name}</h2>{active.en&&<p className="english-name">{active.en}</p>}{active.alsoKnownAs?.length>0&&<p className="common-names">也叫：{active.alsoKnownAs.join("、")}</p>}{active.region&&<p className="location"><MapPin size={14}/>{active.region}</p>}
           {narrationCountry&&<p className="association-note">{narrationCountry.flag} {countryIntroduction(active,narrationCountry)}</p>}
           {active.type!=='area'&&<div className="speech-row"><button className={`listen-button ${storyStatus==='playing'?'speaking':''}`} data-narration-part={storyStatus==='playing'?narration.segment:undefined} onClick={()=>narration.toggle(active,narrationCountry)}>{storyStatus==='playing'?<Pause size={20}/>:<Volume2 size={20}/>}<span>{storyStatus==='playing'?'暂停讲解':storyStatus==='paused'?'继续听':'听一听'}</span>{storyStatus==='playing'&&<span className="sound-bars"><i/><i/><i/></span>}</button>{storyStatus!=='idle'&&<button className="icon-button replay-button" aria-label="从头播放讲解" onClick={()=>narration.play(active,narrationCountry)}><RotateCcw size={18}/></button>}</div>}
           {narration.message&&<p className="audio-message" role="status">{narration.message}</p>}

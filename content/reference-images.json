@@ -2788,5 +2788,30 @@
     "kind": "specimen",
     "caption": "标本参考照片 · 泰坦大天牛",
     "fit": "contain"
+  },
+  "spectacled-caiman": {
+    "sourceFile": "materials/reference-images/spectacled-caiman.jpg",
+    "id": "ref-spectacled-caiman",
+    "origin": "reference",
+    "artist": "Berrucomons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Caiman_crocodilus_llanos.JPG",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Caiman_crocodilus_llanos.JPG/960px-Caiman_crocodilus_llanos.JPG",
+    "kind": "photo",
+    "fit": "contain"
+  },
+  "galapagos-giant-tortoise": {
+    "sourceFile": "materials/reference-images/galapagos-giant-tortoise.jpg",
+    "id": "ref-galapagos-giant-tortoise",
+    "origin": "reference",
+    "artist": "Mfield, Matthew Field, http://www.photography.mattfield.com",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Galapagos_giant_tortoise_Geochelone_elephantopus.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Galapagos_giant_tortoise_Geochelone_elephantopus.jpg/960px-Galapagos_giant_tortoise_Geochelone_elephantopus.jpg",
+    "kind": "photo",
+    "fit": "contain",
+    "caption": "加拉帕戈斯象龟 · 类群参考照片"
   }
 }

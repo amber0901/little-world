@@ -5,7 +5,7 @@
 ## 当前范围
 
 - 70 个主要国家；七大洲、五大洋。
-- 275 个内容：90 个陆地动物、鸟类或保守类群、36 个海洋生物、50 个明确物种的甲虫、89 个地标与风景、10 个自然之最。
+- 277 个内容：92 个陆地动物、鸟类或保守类群、36 个海洋生物、50 个明确物种的甲虫、89 个地标与风景、10 个自然之最。
 - 肯尼亚河马、印度印度犀均有独立介绍；操作集中于地图与知识介绍。
 - 本次10张亲子实拍增加白犀、鹈鹕属、长鼻浣熊属、巨嘴鸟属、陆龟科五项；识别边界见[实拍记录](ZOO_IDENTIFICATION.md)，不把知识牌当活体照片。
 - 本文保留基础内容的逐项依据。新增90个自然条目见 [自然研究](NATURE_RESEARCH.md)，新增31国家与64个地标见 [地理研究](PLACES_RESEARCH.md)。
@@ -121,3 +121,5 @@
 | 安赫尔瀑布 (angel-falls) | record | [资料 1](https://whc.unesco.org/en/list/701/) · [资料 2](https://www.guinnessworldrecords.com/world-records/highest-waterfall) |
 
 本轮新增38项内容，详见[动物与甲虫研究](MORE_NATURE_RESEARCH.md)、[国家地标研究](MORE_PLACES_RESEARCH.md)和[讲解审阅](NARRATION_REVIEW.md)。国家开场只表示当前地图入口，不声称所示照片拍于该国。
+
+指定名称补充：眼镜凯门鳄、加拉帕戈斯象龟类群已新增；毛象大兜虫与亚达伯拉象龟补充既有条目的中文别名，详见[核对记录](REQUESTED_ANIMALS.md)。

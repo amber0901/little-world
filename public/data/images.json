@@ -10290,6 +10290,84 @@
     "revision": "d18973431b23df17",
     "gallery": []
   },
+  "spectacled-caiman": {
+    "id": "ref-spectacled-caiman",
+    "origin": "reference",
+    "artist": "Berrucomons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Caiman_crocodilus_llanos.JPG",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Caiman_crocodilus_llanos.JPG/960px-Caiman_crocodilus_llanos.JPG",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-spectacled-caiman-74769aafdfa3e286/thumb.jpg",
+    "thumbWebp": "/media/ref-spectacled-caiman-74769aafdfa3e286/thumb.webp",
+    "card": "/media/ref-spectacled-caiman-74769aafdfa3e286/card.jpg",
+    "cardWebp": "/media/ref-spectacled-caiman-74769aafdfa3e286/card.webp",
+    "sourceBytes": 245600,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-spectacled-caiman-74769aafdfa3e286/960.jpg",
+    "webp": "/media/ref-spectacled-caiman-74769aafdfa3e286/960.webp",
+    "width": 960,
+    "height": 640,
+    "variants": [
+      {
+        "width": 640,
+        "height": 427,
+        "src": "/media/ref-spectacled-caiman-74769aafdfa3e286/640.jpg",
+        "webp": "/media/ref-spectacled-caiman-74769aafdfa3e286/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/media/ref-spectacled-caiman-74769aafdfa3e286/960.jpg",
+        "webp": "/media/ref-spectacled-caiman-74769aafdfa3e286/960.webp"
+      }
+    ],
+    "revision": "74769aafdfa3e286",
+    "gallery": []
+  },
+  "galapagos-giant-tortoise": {
+    "id": "ref-galapagos-giant-tortoise",
+    "origin": "reference",
+    "artist": "Mfield, Matthew Field, http://www.photography.mattfield.com",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Galapagos_giant_tortoise_Geochelone_elephantopus.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Galapagos_giant_tortoise_Geochelone_elephantopus.jpg/960px-Galapagos_giant_tortoise_Geochelone_elephantopus.jpg",
+    "kind": "photo",
+    "caption": "加拉帕戈斯象龟 · 类群参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-galapagos-giant-tortoise-39dcab3234c6d2ad/thumb.jpg",
+    "thumbWebp": "/media/ref-galapagos-giant-tortoise-39dcab3234c6d2ad/thumb.webp",
+    "card": "/media/ref-galapagos-giant-tortoise-39dcab3234c6d2ad/card.jpg",
+    "cardWebp": "/media/ref-galapagos-giant-tortoise-39dcab3234c6d2ad/card.webp",
+    "sourceBytes": 238553,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-galapagos-giant-tortoise-39dcab3234c6d2ad/960.jpg",
+    "webp": "/media/ref-galapagos-giant-tortoise-39dcab3234c6d2ad/960.webp",
+    "width": 960,
+    "height": 640,
+    "variants": [
+      {
+        "width": 640,
+        "height": 427,
+        "src": "/media/ref-galapagos-giant-tortoise-39dcab3234c6d2ad/640.jpg",
+        "webp": "/media/ref-galapagos-giant-tortoise-39dcab3234c6d2ad/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/media/ref-galapagos-giant-tortoise-39dcab3234c6d2ad/960.jpg",
+        "webp": "/media/ref-galapagos-giant-tortoise-39dcab3234c6d2ad/960.webp"
+      }
+    ],
+    "revision": "39dcab3234c6d2ad",
+    "gallery": []
+  },
   "pelican-family": {
     "id": "zoo-20261114-01",
     "origin": "family",

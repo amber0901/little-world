@@ -1,36 +1,36 @@
 {
-  "entries": 275,
-  "assets": 281,
+  "entries": 277,
+  "assets": 283,
   "familyPhotos": 10,
-  "referenceSourceBytes": 62906851,
+  "referenceSourceBytes": 63391004,
   "familyOriginalBytes": 13224882,
-  "allLargeJpegBytes": 47199045,
-  "allLargeWebpBytes": 38481574,
-  "primaryMapJpegBytes": 1477785,
-  "primaryMapWebpBytes": 1245948,
-  "publishedMediaBytes": 134118522,
+  "allLargeJpegBytes": 47625570,
+  "allLargeWebpBytes": 38855552,
+  "primaryMapJpegBytes": 1490791,
+  "primaryMapWebpBytes": 1257488,
+  "publishedMediaBytes": 135398862,
   "familyLargeWebpBytes": 1117098,
   "familyPublishedBytes": 4269089,
   "gzipIndexes": {
     "images.json": {
-      "raw": 434065,
-      "gzip": 46558
+      "raw": 437530,
+      "gzip": 46888
     },
     "audio.json": {
-      "raw": 20850,
-      "gzip": 7756
+      "raw": 21008,
+      "gzip": 7787
     },
     "audio-contexts.json": {
-      "raw": 53140,
-      "gzip": 14910
+      "raw": 53756,
+      "gzip": 15070
     },
     "world.geojson": {
       "raw": 218498,
       "gzip": 75184
     }
   },
-  "storyAudioCount": 357,
-  "countryIntroductionCount": 693,
-  "storyAudioBytes": 50531378,
-  "countryIntroductionBytes": 21774711
+  "storyAudioCount": 359,
+  "countryIntroductionCount": 700,
+  "storyAudioBytes": 50929034,
+  "countryIntroductionBytes": 22018572
 }

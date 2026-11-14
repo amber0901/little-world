@@ -181,6 +181,8 @@ entries.push(...morePlaces);
 
 import {moreNature} from './more-nature.js';
 entries.push(...moreNature);
+import {reptileAdditions} from './reptile-additions.js';
+entries.push(...reptileAdditions);
 // Point symbols keep small islands visible where the simplified base map omits them.
 const smallIslandNames={'aldabra-giant-tortoise':'阿尔达布拉环礁','blue-footed-booby':'北西摩岛','rapa-nui-moai':'拉帕努伊岛'};
 for(const item of entries)if(smallIslandNames[item.id])item.islandLabel=smallIslandNames[item.id];
@@ -192,9 +194,13 @@ const commonAliases={
  'kangaroo':['袋鼠'], 'capybara':['卡皮巴拉'], 'camel':['骆驼','双峰骆驼'],
  'dromedary':['骆驼','单峰骆驼'], 'golden-monkey':['金丝猴'], 'dung-beetle':['蜣螂','屎壳郎'],
  'common-dor-beetle':['蜣螂','屎壳郎'], 'rhinoceros-beetle':['兜虫','双叉犀金龟'],
- 'hercules-beetle':['长戟大兜虫'], 'great-sphinx':['狮身人面像'], 'leaning-tower-pisa':['比萨斜塔']
+ 'hercules-beetle':['长戟大兜虫'], 'elephant-beetle':['毛象大兜虫','大象象兜虫','Megasoma elephas'],
+ 'aldabra-giant-tortoise':['亚达伯拉象龟','亚达布拉象龟','阿达伯拉象龟','Aldabrachelys gigantea'],
+ 'great-sphinx':['狮身人面像'], 'leaning-tower-pisa':['比萨斜塔']
 };
 for(const item of entries)if(commonAliases[item.id])item.aliases=[...new Set([...(item.aliases||[]),...commonAliases[item.id]])];
+entries.find(e=>e.id==='elephant-beetle').alsoKnownAs=['毛象大兜虫'];
+entries.find(e=>e.id==='aldabra-giant-tortoise').alsoKnownAs=['亚达伯拉象龟'];
 
 import {storyEnrichments} from './story-enrichments.js';
 for(const item of [...entries,...countries]){

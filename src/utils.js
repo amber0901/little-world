@@ -47,6 +47,13 @@ export function mapRealm(entry, countries) {
   return {'asia':'亚洲','europe':'欧洲','africa':'非洲','north-america':'北美洲','south-america':'南美洲','oceania':'大洋洲','antarctica':'南极洲'}[c?.continent]||'陆地';
 }
 
+export function mapPointForEntry(entry,place,pointWithinCountry=false) {
+  // Named islands stay at their real points even when the small-scale country polygon omits them.
+  if(place?.type==='country'&&['animal','beetle','marine'].includes(entry.type)&&!entry.islandLabel&&!pointWithinCountry)return {coords:place.coords,associationPoint:true};
+  if(place?.type==='ocean'&&entry.type==='marine')return {coords:place.coords,associationPoint:true};
+  return {coords:entry.coords,associationPoint:false};
+}
+
 export function relatedEntries(item, entries, countries) {
   if(!item)return [];
   if(item.type==='area')return item.items;
@@ -60,7 +67,7 @@ export function relatedEntries(item, entries, countries) {
   return entries.filter(e=>e.id!==item.id&&e.countries.some(id=>item.countries?.includes(id))).slice(0,12);
 }
 export function narrationText(item) {
-  return [item.name+'。',item.intro,item.metric ? `${item.metric}。${item.comparison}` : '',item.diet ? `它的食物是，${item.diet}。` : '',item.learnMore||'',item.funFact ? `你知道吗？${item.funFact}` : ''].filter(Boolean).join('\n');
+  return [item.name+'。',item.alsoKnownAs?.length?`它也叫${item.alsoKnownAs.join('、')}。`:'',item.intro,item.metric ? `${item.metric}。${item.comparison}` : '',item.diet ? `它的食物是，${item.diet}。` : '',item.learnMore||'',item.funFact ? `你知道吗？${item.funFact}` : ''].filter(Boolean).join('\n');
 }
 
 export function countryForStory(item,country) {
@@ -72,6 +79,6 @@ export function storyKey(item,country) {
 export function countryIntroduction(item,country) {
   const place=countryForStory(item,country);
   if(!place)return '';
-  const group=['genus','family'].includes(item.taxonLevel)?'这一类动物':'';
+  const group=['genus','family','species-complex'].includes(item.taxonLevel)?'这一类动物':'';
   return `你现在在${place.name}的地图上，看到的是${item.name}${group}。`;
 }

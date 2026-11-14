@@ -1,6 +1,6 @@
 # 图片与素材署名
 
-275个条目使用271张参考配图及10张用户提供的动物园照片（包含1张园区知识牌照片）。亲子实拍只获得本项目使用授权，不自动采用MIT或CC许可。参考图片来自Wikimedia Commons，遵循各自许可。
+277个条目使用273张参考配图及10张用户提供的动物园照片（包含1张园区知识牌照片）。亲子实拍只获得本项目使用授权，不自动采用MIT或CC许可。参考图片来自Wikimedia Commons，遵循各自许可。
 
 公开版本经过裁切、缩放和格式压缩，地图和列表使用专用小图。原图仅在本地素材目录归档，用户照片的EXIF/XMP未带入公开图片。马里亚纳海沟为地理示意图，白犀的用户照片为知识牌，界面均有标注。
 
@@ -287,5 +287,7 @@
 | 叶海龙 · 参考照片 | James Rosindell | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Leafy_Seadragon_on_Kangaroo_Island.jpg) |
 | 具室鹦鹉螺 · 参考照片 | Hans Hillewaert | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Nautilus_pompilius_(detail).jpg) |
 | 大砗磲 · 参考照片 | Charles J. Sharp | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Giant_clam_(Tridacna_gigas)_Michaelmas_Cay.jpg) |
+| 眼镜凯门鳄 · 参考照片 | Berrucomons | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Caiman_crocodilus_llanos.JPG) |
+| 加拉帕戈斯象龟 · 加拉帕戈斯象龟 · 类群参考照片 | Mfield, Matthew Field, http://www.photography.mattfield.com | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Galapagos_giant_tortoise_Geochelone_elephantopus.jpg) |
 
 底图：Natural Earth 1:110m Admin 0 Countries，Public Domain。中文讲解：原创文字，使用macOS Tingting制作，句间约420ms停顿，AAC/M4A。所有图像与音频为本地资源，运行时不向素材来源网站请求。

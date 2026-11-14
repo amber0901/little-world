@@ -5,7 +5,7 @@ import {zoom,zoomIdentity} from 'd3-zoom';
 import 'd3-transition';
 import {Plus,Minus,LocateFixed,Move} from 'lucide-react';
 import {continents,oceans,countries} from './data';
-import {continentColors,groupMarkers,mapRealm} from './utils';
+import {continentColors,groupMarkers,mapRealm,mapPointForEntry} from './utils';
 import Picture from './Picture';
 export default function WorldMap({entries,images,category,active,focus,onSelect,onCountry,onRegion,onGroup,onHome,place}) {
   const [world,setWorld]=useState(null),[failed,setFailed]=useState(false),[retry,setRetry]=useState(0);
@@ -18,9 +18,7 @@ export default function WorldMap({entries,images,category,active,focus,onSelect,
   const groupedEntries=useMemo(()=>{
     const feature=place?.type==='country'?world?.features.find(f=>f.properties.ADM0_A3===place.id):null;
     return entries.map(e=>{
-      let coords=e.coords,associationPoint=false;
-      if(place?.type==='country'&&['animal','beetle','marine'].includes(e.type)&&(!feature||!geoContains(feature,coords))){coords=place.coords;associationPoint=true;}
-      if(place?.type==='ocean'&&e.type==='marine'){coords=place.coords;associationPoint=true;}
+      const {coords,associationPoint}=mapPointForEntry(e,place,!!feature&&geoContains(feature,e.coords));
       let realm=mapRealm(e,countries);
       if(e.type!=='marine'&&world&&!e.geographicContinent){
         const located=world.features.find(f=>geoContains(f,e.coords));
