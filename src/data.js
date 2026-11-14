@@ -175,3 +175,29 @@ for(const item of entries){
 
 import {zooAdditions} from './zoo-additions.js';
 entries.push(...zooAdditions);
+
+import {morePlaces} from './more-places.js';
+entries.push(...morePlaces);
+
+import {moreNature} from './more-nature.js';
+entries.push(...moreNature);
+// Point symbols keep small islands visible where the simplified base map omits them.
+const smallIslandNames={'aldabra-giant-tortoise':'阿尔达布拉环礁','blue-footed-booby':'北西摩岛','rapa-nui-moai':'拉帕努伊岛'};
+for(const item of entries)if(smallIslandNames[item.id])item.islandLabel=smallIslandNames[item.id];
+
+// Familiar names are searchable without changing the scientific identification.
+const commonAliases={
+ 'panda':['熊猫'], 'indian-rhino':['印度犀牛','犀牛'], 'white-rhino':['白犀牛','方吻犀','犀牛'],
+ 'black-rhino':['黑犀','犀牛'], 'peacock':['孔雀','印度孔雀'], 'kiwi':['几维鸟','奇异鸟'],
+ 'kangaroo':['袋鼠'], 'capybara':['卡皮巴拉'], 'camel':['骆驼','双峰骆驼'],
+ 'dromedary':['骆驼','单峰骆驼'], 'golden-monkey':['金丝猴'], 'dung-beetle':['蜣螂','屎壳郎'],
+ 'common-dor-beetle':['蜣螂','屎壳郎'], 'rhinoceros-beetle':['兜虫','双叉犀金龟'],
+ 'hercules-beetle':['长戟大兜虫'], 'great-sphinx':['狮身人面像'], 'leaning-tower-pisa':['比萨斜塔']
+};
+for(const item of entries)if(commonAliases[item.id])item.aliases=[...new Set([...(item.aliases||[]),...commonAliases[item.id]])];
+
+import {storyEnrichments} from './story-enrichments.js';
+for(const item of [...entries,...countries]){
+ const patch=storyEnrichments[item.id];
+ if(patch){const sources=[...new Set([...(item.sources||[]),...(patch.sources||[])])];Object.assign(item,patch,{sources});}
+}

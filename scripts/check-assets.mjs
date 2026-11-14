@@ -1,13 +1,15 @@
 import {readFile,stat} from 'node:fs/promises';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
-import {narrationText} from '../src/utils.js';
+import {narrationText,countryIntroduction} from '../src/utils.js';
 import {photosFor} from '../src/media.js';
 import {entries,countries,continents,oceans} from '../src/data.js';
 const root=path.resolve(import.meta.dirname,'../public');
 const images=JSON.parse(await readFile(path.join(root,'data/images.json'),'utf8'));
 const audio=JSON.parse(await readFile(path.join(root,'data/audio.json'),'utf8'));
 const hashes=JSON.parse(await readFile(path.join(root,'data/audio-text-hashes.json'),'utf8'));
+const contexts=JSON.parse(await readFile(path.join(root,'data/audio-contexts.json'),'utf8'));
+const contextHashes=JSON.parse(await readFile(path.join(root,'data/audio-context-text-hashes.json'),'utf8'));
 const errors=[],assets=new Map();
 async function check(url){
  if(!url?.startsWith('/')||url.includes('..')){errors.push('Invalid local asset '+url);return;}
@@ -35,8 +37,18 @@ for(const item of [...entries,...countries,...continents,...oceans]){
  if(hashes[item.id]!==createHash('sha256').update(narrationText(item)).digest('hex'))errors.push('Narration text changed: '+item.id);
 }
 const family=JSON.parse(await readFile(path.join(root,'data/family-photos.json'),'utf8'));
+let introductionCount=0;
+for(const country of countries)for(const item of entries.filter(e=>e.countries.includes(country.id))){
+ introductionCount++;const url=contexts[country.id]?.[item.id];
+ if(!url){errors.push('Missing country introduction '+country.id+':'+item.id);continue;}
+ await check(url);
+ const bytes=await readFile(path.join(root,url));const hash=createHash('sha256').update(bytes).digest('hex').slice(0,16);
+ if(!url.endsWith('-'+hash+'.m4a'))errors.push('Changed country introduction '+country.id+':'+item.id);
+ const textHash=createHash('sha256').update(countryIntroduction(item,country)).digest('hex');
+ if(contextHashes['context-'+country.id+'-'+item.id]!==textHash)errors.push('Country introduction text changed '+country.id+':'+item.id);
+}
 for(const p of family.photos)if(!entries.some(e=>e.id===p.entryId)||!assets.has(p.assetId))errors.push('Unlinked family photograph '+p.assetId);
 const publicMetadata=JSON.stringify({images,family});
 if(/sourceFile|originalName|\/Users\/|xwechat|RWTemp/.test(publicMetadata))errors.push('Private authoring data leaked into public metadata');
 await check('/data/world.geojson');
-if(errors.length){console.error(errors.join('\n'));process.exitCode=1;}else console.log(`Verified ${entries.length} entries, ${assets.size} image assets with responsive variants, ${family.photos.length} family photos, and ${Object.keys(audio).length} versioned audio clips.`);
+if(errors.length){console.error(errors.join('\n'));process.exitCode=1;}else console.log(`Verified ${entries.length} entries, ${assets.size} image assets with responsive variants, ${family.photos.length} family photos, ${Object.keys(audio).length} story recordings and ${introductionCount} country introductions.`);

@@ -92,8 +92,14 @@ report={'entries':len(images),'assets':len(photos),'familyPhotos':len(family),'r
 family_folders={Path(p['src']).parts[2] for _,p in prepared if p['origin']=='family'}
 report['familyPublishedBytes']=sum(p.stat().st_size for folder in family_folders for p in (PUBLIC/'media'/folder).iterdir() if p.is_file())
 report['gzipIndexes']={}
-for name in ['images.json','audio.json','world.geojson']:
+for name in ['images.json','audio.json','audio-contexts.json','world.geojson']:
  raw=(PUBLIC/'data'/name).read_bytes()
  report['gzipIndexes'][name]={'raw':len(raw),'gzip':len(gzip.compress(raw,compresslevel=5,mtime=0))}
+story_audio=json.loads((PUBLIC/'data/audio.json').read_text())
+context_audio=json.loads((PUBLIC/'data/audio-contexts.json').read_text())
+report['storyAudioCount']=len(story_audio)
+report['countryIntroductionCount']=sum(len(c) for c in context_audio.values())
+report['storyAudioBytes']=sum((PUBLIC/p.lstrip('/')).stat().st_size for p in story_audio.values())
+report['countryIntroductionBytes']=sum((PUBLIC/p.lstrip('/')).stat().st_size for c in context_audio.values() for p in c.values())
 (ROOT/'docs/PERFORMANCE.json').write_text(json.dumps(report,indent=2))
 print(json.dumps(report,ensure_ascii=False))

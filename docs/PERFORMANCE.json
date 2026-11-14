@@ -1,28 +1,36 @@
 {
-  "entries": 237,
-  "assets": 243,
+  "entries": 275,
+  "assets": 281,
   "familyPhotos": 10,
-  "referenceSourceBytes": 54467396,
+  "referenceSourceBytes": 62906851,
   "familyOriginalBytes": 13224882,
-  "allLargeJpegBytes": 40745808,
-  "allLargeWebpBytes": 33219924,
-  "primaryMapJpegBytes": 1267400,
-  "primaryMapWebpBytes": 1070214,
-  "publishedMediaBytes": 115565752,
+  "allLargeJpegBytes": 47199045,
+  "allLargeWebpBytes": 38481574,
+  "primaryMapJpegBytes": 1477785,
+  "primaryMapWebpBytes": 1245948,
+  "publishedMediaBytes": 134118522,
   "familyLargeWebpBytes": 1117098,
   "familyPublishedBytes": 4269089,
   "gzipIndexes": {
     "images.json": {
-      "raw": 372413,
-      "gzip": 40251
+      "raw": 434065,
+      "gzip": 46558
     },
     "audio.json": {
-      "raw": 18206,
-      "gzip": 6828
+      "raw": 20850,
+      "gzip": 7756
+    },
+    "audio-contexts.json": {
+      "raw": 53140,
+      "gzip": 14910
     },
     "world.geojson": {
       "raw": 218498,
       "gzip": 75184
     }
-  }
+  },
+  "storyAudioCount": 357,
+  "countryIntroductionCount": 693,
+  "storyAudioBytes": 50531378,
+  "countryIntroductionBytes": 21774711
 }

@@ -5,17 +5,20 @@
 ## 当前内容
 
 - 七大洲、五大洋，70 个主要国家。
-- 237 个地理与动物条目：82 个陆地动物、鸟类或保守识别的类群、32 种海洋生物、38 种甲虫、75 项地标与风景、10 项自然之最。
+- 275 个地理与动物条目：90 个陆地动物、鸟类或保守识别的类群、36 种海洋生物、50 种甲虫、89 项地标与风景、10 项自然之最。
 - 明确包含肯尼亚河马、印度印度犀、胡夫金字塔、埃菲尔铁塔，以及海拔前三山峰、内陆湖/盐水湖/淡水湖、最深海沟等。
-- 243 张本地图片资产：233 张参考配图、10 张亲子实拍（含白犀知识牌），保留各自来源与授权；地图、列表和详情使用不同尺寸。
-- 319 段本地中文讲解，覆盖全部条目、国家、大洲和大洋，支持暂停、继续和重听。
+- 281 张本地图片资产：271 张参考配图、10 张亲子实拍（含白犀知识牌），保留各自来源与授权；地图、列表和详情使用不同尺寸。
+- 357 段本地中文讲解，覆盖全部条目、国家、大洲和大洋；另有 693 段国家关联开场，支持暂停、继续和重听。
+- 顶部直接搜索中文、英文和常见别名；输入国家名也能找到当地内容，并可只搜索当前国家。
+- 已通读原有237项及70国讲解，为36项补充短知识；全部10项自然之最同时讲清比较口径。
 
 本版已移除寻找任务、护照、奖励、印章、发现计数、随机旅行和独立图鉴页面。网站不读写探索进度，不要求登录。
 
 ## 地图怎么用
 
+- **搜索**：顶部输入名字后点“搜索”或按回车。可以切换类别；从国家介绍里的搜索入口进入时默认只找这个国家，也可切回整个世界。
 - **点国家**：地图聚焦这个国家，并显示相关动物、甲虫、地标和自然风景；侧边可以逐个点开。
-- **点图片**：查看真实照片和介绍，听讲解。卡片里的国家、大洋按钮可以继续跳转。
+- **点图片**：查看真实照片和介绍，听讲解。卡片里的国家、大洋按钮可以继续跳转。从国家进入时，会先播放“你现在在某国的地图上，看到的是某内容”，再接着介绍它；不会把动物园拍摄地点当作原生地。
 - **点数字图片组**：展开这一带的全部内容，同时放大地图。分组内的内容可全部从侧边列表进入，不会因相互重叠而被隐藏或丢弃。
 - **看不同内容**：顶部切换陆地动物、海洋动物、甲虫、地标风景和自然之最。底部可快速查看七大洲与五大洋。
 - **回到全图**：点右下角定位按钮或左上角小小世界标志。点“显示其他地方”可解除当前地区筛选并保留地图位置。
@@ -80,12 +83,17 @@ src/WorldMap.jsx             投影、拖放缩放、图片分组与地理引线
 src/Picture.jsx              WebP/JPEG响应式图像与示意图标注
 src/PhotoGallery.jsx         实拍/参考照片切换与看大图
 src/zoo-additions.js         本批新增动物与保守类群介绍
-src/utils.js                 搜索、地区联动、地图分组与讲解文本
+src/utils.js                 地区联动、地图分组、讲解文本与国家开场
+src/search.js                全文、别名与国家关联搜索和结果排序
+src/narration-player.js      国家开场/正文播放队列，共用媒体元素
 src/useNarration.js           播放/暂停/继续/重听
 src/data.js                  基础数据与扩展合并入口
 src/nature-additions.js       新增物种、海洋生物和甲虫
 src/place-additions.js        新增国家、地标和自然景观
 src/range-additions.js        经核查的国家与物种分布关联
+src/more-nature.js            本轮新增24种动物与甲虫
+src/more-places.js            本轮新增14处地标与风景
+src/story-enrichments.js      精简的讲解补充与核查来源
 public/data/                 地图、图片作者与许可、音频索引与文字哈希
 public/media/                带内容版本的各尺寸WebP/JPEG图片
 content/family-batches/       维护用收录清单（不进运行时）
@@ -101,7 +109,7 @@ Dockerfile / compose.yaml    腾讯云单机部署
 2. 通过 `countries` 关联 ISO3 国家 ID；海洋生物需填写 `oceanIds`。自然之最同时填写 `metric` 与 `comparison`，说明比较标准。
 3. `python3 scripts/fetch-images.py` 将可授权的参考原图及元数据保存到本地素材目录，跳过已有文件；可用`FETCH_ONLY=条目ID`限定新增条目。若默认图是标志或地图，在`scripts/image-overrides.json`指定已核查文件。亲子照片沿用[实拍维护流程](docs/FAMILY_MATERIALS.md)，不添加前端上传功能。
 4. 安装`requirements-media.txt`中的Pillow后执行`npm run assets:images`，生成160像素地图图、320像素列表图和640/1280长边详情图，提供WebP及JPEG兼容版本，清除拍摄元数据。`assets:thumbnails`为兼容别名。工具仅用于制作，非Docker运行依赖。
-5. `node scripts/generate-narration.mjs` 在 macOS 上使用 Tingting 与 FFmpeg 生成 M4A；根据文字 SHA256 自动补录变更内容，音频文件名采用实际文件哈希。语速 175，句间约 420ms 停顿。既有音频可直接部署到 Linux，不依赖 macOS。
+5. `node scripts/generate-narration.mjs` 在 macOS 上使用 Tingting 与 FFmpeg 生成 M4A；根据文字 SHA256 自动补录变更内容，并为每个国家与条目关联录制开场；音频文件名采用实际文件哈希。播放时复用同一媒体元素，先播国家开场，再播通用正文，避免为每个国家重复保存整段故事。语速 175，句间约 420ms 停顿。既有音频可直接部署到 Linux，不依赖 macOS。
 6. 运行 `npm test`、`npm run check:assets` 与 `npm run build`。素材检查会发现缺图、缺缩略图、缺音频、缺授权或音频文字已变更的问题。
 
 浏览器系统朗读作为新增未录制内容的后备方案，音色取决于设备。已收录内容完整使用本地音频。
@@ -111,6 +119,8 @@ Dockerfile / compose.yaml    腾讯云单机部署
 - [基础内容与比较标准](docs/CONTENT_SOURCES.md)
 - [新增自然内容研究](docs/NATURE_RESEARCH.md)
 - [新增国家与地标研究](docs/PLACES_RESEARCH.md)
+- [本轮动物与甲虫研究](docs/MORE_NATURE_RESEARCH.md)和[国家代表内容研究](docs/MORE_PLACES_RESEARCH.md)
+- [讲解整体审阅](docs/NARRATION_REVIEW.md)
 - [图片作者与许可](docs/ASSET_CREDITS.md)
 - [亲子实拍识别依据](docs/ZOO_IDENTIFICATION.md)与[后续维护流程](docs/FAMILY_MATERIALS.md)
 - [压缩与缓存记录](docs/PERFORMANCE.md)

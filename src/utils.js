@@ -40,6 +40,7 @@ export function groupMarkers(entries, projection, transform, size, activeId, rad
 
 export function mapRealm(entry, countries) {
   if(entry.type==='marine')return '海洋';
+  if(entry.geographicContinent)return {'asia':'亚洲','europe':'欧洲','africa':'非洲','north-america':'北美洲','south-america':'南美洲','oceania':'大洋洲','antarctica':'南极洲'}[entry.geographicContinent];
   const named=[['亚洲','asia'],['欧洲','europe'],['非洲','africa'],['北美洲','north-america'],['南美洲','south-america'],['大洋洲','oceania'],['南极','antarctica']].find(([name])=>entry.region?.includes(name));
   if(named)return named[0]==='南极'?'南极洲':named[0];
   const c=countries.find(c=>c.id===entry.countries?.[0]);
@@ -52,12 +53,25 @@ export function relatedEntries(item, entries, countries) {
   if(item.type==='country')return entries.filter(e=>e.countries.includes(item.id));
   if(item.type==='continent'){
     const ids=new Set(countries.filter(c=>c.continent===item.id).map(c=>c.id));
-    return entries.filter(e=>e.countries.some(id=>ids.has(id))||(item.id==='antarctica'&&/南极/.test(e.region)));
+    return entries.filter(e=>e.geographicContinent?e.geographicContinent===item.id:e.countries.some(id=>ids.has(id))||(item.id==='antarctica'&&/南极/.test(e.region)));
   }
   if(item.type==='ocean')return entries.filter(e=>e.oceanIds?.includes(item.id));
   // Lead with things from the same place, then the same category.
   return entries.filter(e=>e.id!==item.id&&e.countries.some(id=>item.countries?.includes(id))).slice(0,12);
 }
 export function narrationText(item) {
-  return [item.name+'。',item.intro,item.diet ? `它的食物是，${item.diet}。` : '',item.funFact ? `你知道吗？${item.funFact}` : ''].filter(Boolean).join('\n');
+  return [item.name+'。',item.intro,item.metric ? `${item.metric}。${item.comparison}` : '',item.diet ? `它的食物是，${item.diet}。` : '',item.learnMore||'',item.funFact ? `你知道吗？${item.funFact}` : ''].filter(Boolean).join('\n');
+}
+
+export function countryForStory(item,country) {
+  return country&&item?.countries?.includes(country.id)?country:null;
+}
+export function storyKey(item,country) {
+  return item ? `${countryForStory(item,country)?.id||'world'}:${item.id}` : null;
+}
+export function countryIntroduction(item,country) {
+  const place=countryForStory(item,country);
+  if(!place)return '';
+  const group=['genus','family'].includes(item.taxonLevel)?'这一类动物':'';
+  return `你现在在${place.name}的地图上，看到的是${item.name}${group}。`;
 }

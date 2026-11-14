@@ -8814,6 +8814,1482 @@
       }
     ]
   },
+  "jiuzhaigou": {
+    "id": "ref-jiuzhaigou",
+    "origin": "reference",
+    "artist": "Chensiyuan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg/960px-1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-jiuzhaigou-1c1d39b9f8913f07/thumb.jpg",
+    "thumbWebp": "/media/ref-jiuzhaigou-1c1d39b9f8913f07/thumb.webp",
+    "card": "/media/ref-jiuzhaigou-1c1d39b9f8913f07/card.jpg",
+    "cardWebp": "/media/ref-jiuzhaigou-1c1d39b9f8913f07/card.webp",
+    "sourceBytes": 296795,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-jiuzhaigou-1c1d39b9f8913f07/960.jpg",
+    "webp": "/media/ref-jiuzhaigou-1c1d39b9f8913f07/960.webp",
+    "width": 960,
+    "height": 639,
+    "variants": [
+      {
+        "width": 640,
+        "height": 426,
+        "src": "/media/ref-jiuzhaigou-1c1d39b9f8913f07/640.jpg",
+        "webp": "/media/ref-jiuzhaigou-1c1d39b9f8913f07/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 639,
+        "src": "/media/ref-jiuzhaigou-1c1d39b9f8913f07/960.jpg",
+        "webp": "/media/ref-jiuzhaigou-1c1d39b9f8913f07/960.webp"
+      }
+    ],
+    "revision": "1c1d39b9f8913f07",
+    "gallery": []
+  },
+  "himeji-castle": {
+    "id": "ref-himeji-castle",
+    "origin": "reference",
+    "artist": "Nikos Kitsakis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Himeji_castle_in_may_2015.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Himeji_castle_in_may_2015.jpg/960px-Himeji_castle_in_may_2015.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-himeji-castle-5ac1fad0c1c83b9c/thumb.jpg",
+    "thumbWebp": "/media/ref-himeji-castle-5ac1fad0c1c83b9c/thumb.webp",
+    "card": "/media/ref-himeji-castle-5ac1fad0c1c83b9c/card.jpg",
+    "cardWebp": "/media/ref-himeji-castle-5ac1fad0c1c83b9c/card.webp",
+    "sourceBytes": 208995,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-himeji-castle-5ac1fad0c1c83b9c/960.jpg",
+    "webp": "/media/ref-himeji-castle-5ac1fad0c1c83b9c/960.webp",
+    "width": 960,
+    "height": 640,
+    "variants": [
+      {
+        "width": 640,
+        "height": 427,
+        "src": "/media/ref-himeji-castle-5ac1fad0c1c83b9c/640.jpg",
+        "webp": "/media/ref-himeji-castle-5ac1fad0c1c83b9c/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/media/ref-himeji-castle-5ac1fad0c1c83b9c/960.jpg",
+        "webp": "/media/ref-himeji-castle-5ac1fad0c1c83b9c/960.webp"
+      }
+    ],
+    "revision": "5ac1fad0c1c83b9c",
+    "gallery": []
+  },
+  "hawa-mahal": {
+    "id": "ref-hawa-mahal",
+    "origin": "reference",
+    "artist": "Chainwit.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/960px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-hawa-mahal-df160575fcff7f37/thumb.jpg",
+    "thumbWebp": "/media/ref-hawa-mahal-df160575fcff7f37/thumb.webp",
+    "card": "/media/ref-hawa-mahal-df160575fcff7f37/card.jpg",
+    "cardWebp": "/media/ref-hawa-mahal-df160575fcff7f37/card.webp",
+    "sourceBytes": 310740,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-hawa-mahal-df160575fcff7f37/960.jpg",
+    "webp": "/media/ref-hawa-mahal-df160575fcff7f37/960.webp",
+    "width": 960,
+    "height": 720,
+    "variants": [
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/media/ref-hawa-mahal-df160575fcff7f37/640.jpg",
+        "webp": "/media/ref-hawa-mahal-df160575fcff7f37/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/media/ref-hawa-mahal-df160575fcff7f37/960.jpg",
+        "webp": "/media/ref-hawa-mahal-df160575fcff7f37/960.webp"
+      }
+    ],
+    "revision": "df160575fcff7f37",
+    "gallery": []
+  },
+  "mohenjo-daro": {
+    "id": "ref-mohenjo-daro",
+    "origin": "reference",
+    "artist": "Saqib Qayyum",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mohenjodaro_-_view_of_the_stupa_mound.JPG",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Mohenjodaro_-_view_of_the_stupa_mound.JPG/960px-Mohenjodaro_-_view_of_the_stupa_mound.JPG",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-mohenjo-daro-3e3c50572880d5e5/thumb.jpg",
+    "thumbWebp": "/media/ref-mohenjo-daro-3e3c50572880d5e5/thumb.webp",
+    "card": "/media/ref-mohenjo-daro-3e3c50572880d5e5/card.jpg",
+    "cardWebp": "/media/ref-mohenjo-daro-3e3c50572880d5e5/card.webp",
+    "sourceBytes": 220723,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-mohenjo-daro-3e3c50572880d5e5/960.jpg",
+    "webp": "/media/ref-mohenjo-daro-3e3c50572880d5e5/960.webp",
+    "width": 960,
+    "height": 720,
+    "variants": [
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/media/ref-mohenjo-daro-3e3c50572880d5e5/640.jpg",
+        "webp": "/media/ref-mohenjo-daro-3e3c50572880d5e5/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/media/ref-mohenjo-daro-3e3c50572880d5e5/960.jpg",
+        "webp": "/media/ref-mohenjo-daro-3e3c50572880d5e5/960.webp"
+      }
+    ],
+    "revision": "3e3c50572880d5e5",
+    "gallery": []
+  },
+  "gunung-mulu": {
+    "id": "ref-gunung-mulu",
+    "origin": "reference",
+    "artist": "Juanita at the Japanese wikpedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Mulu.JPG",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Mulu.JPG",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-gunung-mulu-f126228ce3dde3a5/thumb.jpg",
+    "thumbWebp": "/media/ref-gunung-mulu-f126228ce3dde3a5/thumb.webp",
+    "card": "/media/ref-gunung-mulu-f126228ce3dde3a5/card.jpg",
+    "cardWebp": "/media/ref-gunung-mulu-f126228ce3dde3a5/card.webp",
+    "sourceBytes": 72373,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-gunung-mulu-f126228ce3dde3a5/640.jpg",
+    "webp": "/media/ref-gunung-mulu-f126228ce3dde3a5/640.webp",
+    "width": 640,
+    "height": 480,
+    "variants": [
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/media/ref-gunung-mulu-f126228ce3dde3a5/640.jpg",
+        "webp": "/media/ref-gunung-mulu-f126228ce3dde3a5/640.webp"
+      }
+    ],
+    "revision": "f126228ce3dde3a5",
+    "gallery": []
+  },
+  "louvre-museum": {
+    "id": "ref-louvre-museum",
+    "origin": "reference",
+    "artist": "Benh LIEU SONG (Flickr)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Louvre_Museum_Wikimedia_Commons.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/960px-Louvre_Museum_Wikimedia_Commons.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-louvre-museum-6bee1e7b80393e40/thumb.jpg",
+    "thumbWebp": "/media/ref-louvre-museum-6bee1e7b80393e40/thumb.webp",
+    "card": "/media/ref-louvre-museum-6bee1e7b80393e40/card.jpg",
+    "cardWebp": "/media/ref-louvre-museum-6bee1e7b80393e40/card.webp",
+    "sourceBytes": 98559,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-louvre-museum-6bee1e7b80393e40/960.jpg",
+    "webp": "/media/ref-louvre-museum-6bee1e7b80393e40/960.webp",
+    "width": 960,
+    "height": 403,
+    "variants": [
+      {
+        "width": 640,
+        "height": 269,
+        "src": "/media/ref-louvre-museum-6bee1e7b80393e40/640.jpg",
+        "webp": "/media/ref-louvre-museum-6bee1e7b80393e40/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 403,
+        "src": "/media/ref-louvre-museum-6bee1e7b80393e40/960.jpg",
+        "webp": "/media/ref-louvre-museum-6bee1e7b80393e40/960.webp"
+      }
+    ],
+    "revision": "6bee1e7b80393e40",
+    "gallery": []
+  },
+  "leaning-tower-pisa": {
+    "id": "ref-leaning-tower-pisa",
+    "origin": "reference",
+    "artist": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Italy_-_Pisa_-_Leaning_Tower.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Italy_-_Pisa_-_Leaning_Tower.jpg/960px-Italy_-_Pisa_-_Leaning_Tower.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-leaning-tower-pisa-038e6995897ae931/thumb.jpg",
+    "thumbWebp": "/media/ref-leaning-tower-pisa-038e6995897ae931/thumb.webp",
+    "card": "/media/ref-leaning-tower-pisa-038e6995897ae931/card.jpg",
+    "cardWebp": "/media/ref-leaning-tower-pisa-038e6995897ae931/card.webp",
+    "sourceBytes": 472108,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-leaning-tower-pisa-038e6995897ae931/918.jpg",
+    "webp": "/media/ref-leaning-tower-pisa-038e6995897ae931/918.webp",
+    "width": 918,
+    "height": 1280,
+    "variants": [
+      {
+        "width": 459,
+        "height": 640,
+        "src": "/media/ref-leaning-tower-pisa-038e6995897ae931/459.jpg",
+        "webp": "/media/ref-leaning-tower-pisa-038e6995897ae931/459.webp"
+      },
+      {
+        "width": 918,
+        "height": 1280,
+        "src": "/media/ref-leaning-tower-pisa-038e6995897ae931/918.jpg",
+        "webp": "/media/ref-leaning-tower-pisa-038e6995897ae931/918.webp"
+      }
+    ],
+    "revision": "038e6995897ae931",
+    "gallery": []
+  },
+  "meteora-monasteries": {
+    "id": "ref-meteora-monasteries",
+    "origin": "reference",
+    "artist": "Stathis floros",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Meteora%27s_monastery_2.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Meteora%27s_monastery_2.jpg/960px-Meteora%27s_monastery_2.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-meteora-monasteries-ede6742e5f9df490/thumb.jpg",
+    "thumbWebp": "/media/ref-meteora-monasteries-ede6742e5f9df490/thumb.webp",
+    "card": "/media/ref-meteora-monasteries-ede6742e5f9df490/card.jpg",
+    "cardWebp": "/media/ref-meteora-monasteries-ede6742e5f9df490/card.webp",
+    "sourceBytes": 176834,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-meteora-monasteries-ede6742e5f9df490/960.jpg",
+    "webp": "/media/ref-meteora-monasteries-ede6742e5f9df490/960.webp",
+    "width": 960,
+    "height": 641,
+    "variants": [
+      {
+        "width": 640,
+        "height": 427,
+        "src": "/media/ref-meteora-monasteries-ede6742e5f9df490/640.jpg",
+        "webp": "/media/ref-meteora-monasteries-ede6742e5f9df490/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 641,
+        "src": "/media/ref-meteora-monasteries-ede6742e5f9df490/960.jpg",
+        "webp": "/media/ref-meteora-monasteries-ede6742e5f9df490/960.webp"
+      }
+    ],
+    "revision": "ede6742e5f9df490",
+    "gallery": []
+  },
+  "great-sphinx": {
+    "id": "ref-great-sphinx",
+    "origin": "reference",
+    "artist": "Hesham Ebaid",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Sphinx_with_the_third_pyramid.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Sphinx_with_the_third_pyramid.jpg/960px-Sphinx_with_the_third_pyramid.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-great-sphinx-48e3f2b94483e253/thumb.jpg",
+    "thumbWebp": "/media/ref-great-sphinx-48e3f2b94483e253/thumb.webp",
+    "card": "/media/ref-great-sphinx-48e3f2b94483e253/card.jpg",
+    "cardWebp": "/media/ref-great-sphinx-48e3f2b94483e253/card.webp",
+    "sourceBytes": 138987,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-great-sphinx-48e3f2b94483e253/960.jpg",
+    "webp": "/media/ref-great-sphinx-48e3f2b94483e253/960.webp",
+    "width": 960,
+    "height": 596,
+    "variants": [
+      {
+        "width": 640,
+        "height": 397,
+        "src": "/media/ref-great-sphinx-48e3f2b94483e253/640.jpg",
+        "webp": "/media/ref-great-sphinx-48e3f2b94483e253/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 596,
+        "src": "/media/ref-great-sphinx-48e3f2b94483e253/960.jpg",
+        "webp": "/media/ref-great-sphinx-48e3f2b94483e253/960.webp"
+      }
+    ],
+    "revision": "48e3f2b94483e253",
+    "gallery": []
+  },
+  "boulders-beach": {
+    "id": "ref-boulders-beach",
+    "origin": "reference",
+    "artist": "Olga Ernst",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Boulders_Beach_Suedafrika.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Boulders_Beach_Suedafrika.jpg/960px-Boulders_Beach_Suedafrika.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-boulders-beach-88ec115513553143/thumb.jpg",
+    "thumbWebp": "/media/ref-boulders-beach-88ec115513553143/thumb.webp",
+    "card": "/media/ref-boulders-beach-88ec115513553143/card.jpg",
+    "cardWebp": "/media/ref-boulders-beach-88ec115513553143/card.webp",
+    "sourceBytes": 213516,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-boulders-beach-88ec115513553143/960.jpg",
+    "webp": "/media/ref-boulders-beach-88ec115513553143/960.webp",
+    "width": 960,
+    "height": 660,
+    "variants": [
+      {
+        "width": 640,
+        "height": 440,
+        "src": "/media/ref-boulders-beach-88ec115513553143/640.jpg",
+        "webp": "/media/ref-boulders-beach-88ec115513553143/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 660,
+        "src": "/media/ref-boulders-beach-88ec115513553143/960.jpg",
+        "webp": "/media/ref-boulders-beach-88ec115513553143/960.webp"
+      }
+    ],
+    "revision": "88ec115513553143",
+    "gallery": []
+  },
+  "banff-national-park": {
+    "id": "ref-banff-national-park",
+    "origin": "reference",
+    "artist": "Gorgo",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Moraine_Lake_17092005.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Moraine_Lake_17092005.jpg/960px-Moraine_Lake_17092005.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-banff-national-park-582fd34569921162/thumb.jpg",
+    "thumbWebp": "/media/ref-banff-national-park-582fd34569921162/thumb.webp",
+    "card": "/media/ref-banff-national-park-582fd34569921162/card.jpg",
+    "cardWebp": "/media/ref-banff-national-park-582fd34569921162/card.webp",
+    "sourceBytes": 220725,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-banff-national-park-582fd34569921162/960.jpg",
+    "webp": "/media/ref-banff-national-park-582fd34569921162/960.webp",
+    "width": 960,
+    "height": 720,
+    "variants": [
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/media/ref-banff-national-park-582fd34569921162/640.jpg",
+        "webp": "/media/ref-banff-national-park-582fd34569921162/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/media/ref-banff-national-park-582fd34569921162/960.jpg",
+        "webp": "/media/ref-banff-national-park-582fd34569921162/960.webp"
+      }
+    ],
+    "revision": "582fd34569921162",
+    "gallery": []
+  },
+  "rapa-nui-moai": {
+    "id": "ref-rapa-nui-moai",
+    "origin": "reference",
+    "artist": "Ian Sewell",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:AhuTongariki.JPG",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/5/50/AhuTongariki.JPG",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-rapa-nui-moai-504740c0a3505743/thumb.jpg",
+    "thumbWebp": "/media/ref-rapa-nui-moai-504740c0a3505743/thumb.webp",
+    "card": "/media/ref-rapa-nui-moai-504740c0a3505743/card.jpg",
+    "cardWebp": "/media/ref-rapa-nui-moai-504740c0a3505743/card.webp",
+    "sourceBytes": 142075,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-rapa-nui-moai-504740c0a3505743/800.jpg",
+    "webp": "/media/ref-rapa-nui-moai-504740c0a3505743/800.webp",
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/media/ref-rapa-nui-moai-504740c0a3505743/640.jpg",
+        "webp": "/media/ref-rapa-nui-moai-504740c0a3505743/640.webp"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "src": "/media/ref-rapa-nui-moai-504740c0a3505743/800.jpg",
+        "webp": "/media/ref-rapa-nui-moai-504740c0a3505743/800.webp"
+      }
+    ],
+    "revision": "504740c0a3505743",
+    "gallery": []
+  },
+  "perito-moreno-glacier": {
+    "id": "ref-perito-moreno-glacier",
+    "origin": "reference",
+    "artist": "Fernando",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Perito_Moreno_Glacier_2023.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Perito_Moreno_Glacier_2023.jpg/960px-Perito_Moreno_Glacier_2023.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-perito-moreno-glacier-9260ae54abd5ab3c/thumb.jpg",
+    "thumbWebp": "/media/ref-perito-moreno-glacier-9260ae54abd5ab3c/thumb.webp",
+    "card": "/media/ref-perito-moreno-glacier-9260ae54abd5ab3c/card.jpg",
+    "cardWebp": "/media/ref-perito-moreno-glacier-9260ae54abd5ab3c/card.webp",
+    "sourceBytes": 125771,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-perito-moreno-glacier-9260ae54abd5ab3c/960.jpg",
+    "webp": "/media/ref-perito-moreno-glacier-9260ae54abd5ab3c/960.webp",
+    "width": 960,
+    "height": 411,
+    "variants": [
+      {
+        "width": 640,
+        "height": 274,
+        "src": "/media/ref-perito-moreno-glacier-9260ae54abd5ab3c/640.jpg",
+        "webp": "/media/ref-perito-moreno-glacier-9260ae54abd5ab3c/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 411,
+        "src": "/media/ref-perito-moreno-glacier-9260ae54abd5ab3c/960.jpg",
+        "webp": "/media/ref-perito-moreno-glacier-9260ae54abd5ab3c/960.webp"
+      }
+    ],
+    "revision": "9260ae54abd5ab3c",
+    "gallery": []
+  },
+  "twelve-apostles": {
+    "id": "ref-twelve-apostles",
+    "origin": "reference",
+    "artist": "Michael J Fromholtz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Twelve_Apostles_2011.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/The_Twelve_Apostles_2011.jpg/960px-The_Twelve_Apostles_2011.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-twelve-apostles-bbefebec9163eeca/thumb.jpg",
+    "thumbWebp": "/media/ref-twelve-apostles-bbefebec9163eeca/thumb.webp",
+    "card": "/media/ref-twelve-apostles-bbefebec9163eeca/card.jpg",
+    "cardWebp": "/media/ref-twelve-apostles-bbefebec9163eeca/card.webp",
+    "sourceBytes": 245015,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-twelve-apostles-bbefebec9163eeca/960.jpg",
+    "webp": "/media/ref-twelve-apostles-bbefebec9163eeca/960.webp",
+    "width": 960,
+    "height": 639,
+    "variants": [
+      {
+        "width": 640,
+        "height": 426,
+        "src": "/media/ref-twelve-apostles-bbefebec9163eeca/640.jpg",
+        "webp": "/media/ref-twelve-apostles-bbefebec9163eeca/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 639,
+        "src": "/media/ref-twelve-apostles-bbefebec9163eeca/960.jpg",
+        "webp": "/media/ref-twelve-apostles-bbefebec9163eeca/960.webp"
+      }
+    ],
+    "revision": "bbefebec9163eeca",
+    "gallery": []
+  },
+  "common-cockchafer": {
+    "id": "ref-common-cockchafer",
+    "origin": "reference",
+    "artist": "Frank Vassen from Brussels, Belgium",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hanneton_commun_(Melolontha_melolontha)_%E2%99%80,_Parc_de_Woluw%C3%A9,_Bruxelles_(51222810874).jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Hanneton_commun_%28Melolontha_melolontha%29_%E2%99%80%2C_Parc_de_Woluw%C3%A9%2C_Bruxelles_%2851222810874%29.jpg/960px-Hanneton_commun_%28Melolontha_melolontha%29_%E2%99%80%2C_Parc_de_Woluw%C3%A9%2C_Bruxelles_%2851222810874%29.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-common-cockchafer-bdf858e48d34742f/thumb.jpg",
+    "thumbWebp": "/media/ref-common-cockchafer-bdf858e48d34742f/thumb.webp",
+    "card": "/media/ref-common-cockchafer-bdf858e48d34742f/card.jpg",
+    "cardWebp": "/media/ref-common-cockchafer-bdf858e48d34742f/card.webp",
+    "sourceBytes": 179928,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-common-cockchafer-bdf858e48d34742f/960.jpg",
+    "webp": "/media/ref-common-cockchafer-bdf858e48d34742f/960.webp",
+    "width": 960,
+    "height": 709,
+    "variants": [
+      {
+        "width": 640,
+        "height": 473,
+        "src": "/media/ref-common-cockchafer-bdf858e48d34742f/640.jpg",
+        "webp": "/media/ref-common-cockchafer-bdf858e48d34742f/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 709,
+        "src": "/media/ref-common-cockchafer-bdf858e48d34742f/960.jpg",
+        "webp": "/media/ref-common-cockchafer-bdf858e48d34742f/960.webp"
+      }
+    ],
+    "revision": "bdf858e48d34742f",
+    "gallery": []
+  },
+  "common-dor-beetle": {
+    "id": "ref-common-dor-beetle",
+    "origin": "reference",
+    "artist": "Rasbak at Dutch Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Mestkever.jpg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Mestkever.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-common-dor-beetle-49776af5b928e1c7/thumb.jpg",
+    "thumbWebp": "/media/ref-common-dor-beetle-49776af5b928e1c7/thumb.webp",
+    "card": "/media/ref-common-dor-beetle-49776af5b928e1c7/card.jpg",
+    "cardWebp": "/media/ref-common-dor-beetle-49776af5b928e1c7/card.webp",
+    "sourceBytes": 430465,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-common-dor-beetle-49776af5b928e1c7/770.jpg",
+    "webp": "/media/ref-common-dor-beetle-49776af5b928e1c7/770.webp",
+    "width": 770,
+    "height": 714,
+    "variants": [
+      {
+        "width": 640,
+        "height": 593,
+        "src": "/media/ref-common-dor-beetle-49776af5b928e1c7/640.jpg",
+        "webp": "/media/ref-common-dor-beetle-49776af5b928e1c7/640.webp"
+      },
+      {
+        "width": 770,
+        "height": 714,
+        "src": "/media/ref-common-dor-beetle-49776af5b928e1c7/770.jpg",
+        "webp": "/media/ref-common-dor-beetle-49776af5b928e1c7/770.webp"
+      }
+    ],
+    "revision": "49776af5b928e1c7",
+    "gallery": []
+  },
+  "violet-oil-beetle": {
+    "id": "ref-violet-oil-beetle",
+    "origin": "reference",
+    "artist": "Hectonichus",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Meloidae_-_Meloe_violaceus.JPG",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Meloidae_-_Meloe_violaceus.JPG/960px-Meloidae_-_Meloe_violaceus.JPG",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-violet-oil-beetle-c9f8a053fa0f6d1c/thumb.jpg",
+    "thumbWebp": "/media/ref-violet-oil-beetle-c9f8a053fa0f6d1c/thumb.webp",
+    "card": "/media/ref-violet-oil-beetle-c9f8a053fa0f6d1c/card.jpg",
+    "cardWebp": "/media/ref-violet-oil-beetle-c9f8a053fa0f6d1c/card.webp",
+    "sourceBytes": 151029,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-violet-oil-beetle-c9f8a053fa0f6d1c/960.jpg",
+    "webp": "/media/ref-violet-oil-beetle-c9f8a053fa0f6d1c/960.webp",
+    "width": 960,
+    "height": 720,
+    "variants": [
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/media/ref-violet-oil-beetle-c9f8a053fa0f6d1c/640.jpg",
+        "webp": "/media/ref-violet-oil-beetle-c9f8a053fa0f6d1c/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/media/ref-violet-oil-beetle-c9f8a053fa0f6d1c/960.jpg",
+        "webp": "/media/ref-violet-oil-beetle-c9f8a053fa0f6d1c/960.webp"
+      }
+    ],
+    "revision": "c9f8a053fa0f6d1c",
+    "gallery": []
+  },
+  "tansy-beetle": {
+    "id": "ref-tansy-beetle",
+    "origin": "reference",
+    "artist": "Zakhx150",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tansy_Beetle_(Chrysolina_Graminis)_in_York,_UK_(cropped).jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Tansy_Beetle_%28Chrysolina_Graminis%29_in_York%2C_UK_%28cropped%29.jpg/960px-Tansy_Beetle_%28Chrysolina_Graminis%29_in_York%2C_UK_%28cropped%29.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-tansy-beetle-81ecd0bc00d3c211/thumb.jpg",
+    "thumbWebp": "/media/ref-tansy-beetle-81ecd0bc00d3c211/thumb.webp",
+    "card": "/media/ref-tansy-beetle-81ecd0bc00d3c211/card.jpg",
+    "cardWebp": "/media/ref-tansy-beetle-81ecd0bc00d3c211/card.webp",
+    "sourceBytes": 171935,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-tansy-beetle-81ecd0bc00d3c211/960.jpg",
+    "webp": "/media/ref-tansy-beetle-81ecd0bc00d3c211/960.webp",
+    "width": 960,
+    "height": 1200,
+    "variants": [
+      {
+        "width": 512,
+        "height": 640,
+        "src": "/media/ref-tansy-beetle-81ecd0bc00d3c211/512.jpg",
+        "webp": "/media/ref-tansy-beetle-81ecd0bc00d3c211/512.webp"
+      },
+      {
+        "width": 960,
+        "height": 1200,
+        "src": "/media/ref-tansy-beetle-81ecd0bc00d3c211/960.jpg",
+        "webp": "/media/ref-tansy-beetle-81ecd0bc00d3c211/960.webp"
+      }
+    ],
+    "revision": "81ecd0bc00d3c211",
+    "gallery": []
+  },
+  "rosemary-beetle": {
+    "id": "ref-rosemary-beetle",
+    "origin": "reference",
+    "artist": "Hectonichus",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chrysomelidae_-_Chrysolina_americana.JPG",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Chrysomelidae_-_Chrysolina_americana.JPG/960px-Chrysomelidae_-_Chrysolina_americana.JPG",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-rosemary-beetle-71ac44175e5f2f32/thumb.jpg",
+    "thumbWebp": "/media/ref-rosemary-beetle-71ac44175e5f2f32/thumb.webp",
+    "card": "/media/ref-rosemary-beetle-71ac44175e5f2f32/card.jpg",
+    "cardWebp": "/media/ref-rosemary-beetle-71ac44175e5f2f32/card.webp",
+    "sourceBytes": 207618,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-rosemary-beetle-71ac44175e5f2f32/960.jpg",
+    "webp": "/media/ref-rosemary-beetle-71ac44175e5f2f32/960.webp",
+    "width": 960,
+    "height": 744,
+    "variants": [
+      {
+        "width": 640,
+        "height": 496,
+        "src": "/media/ref-rosemary-beetle-71ac44175e5f2f32/640.jpg",
+        "webp": "/media/ref-rosemary-beetle-71ac44175e5f2f32/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 744,
+        "src": "/media/ref-rosemary-beetle-71ac44175e5f2f32/960.jpg",
+        "webp": "/media/ref-rosemary-beetle-71ac44175e5f2f32/960.webp"
+      }
+    ],
+    "revision": "71ac44175e5f2f32",
+    "gallery": []
+  },
+  "striped-cucumber-beetle": {
+    "id": "ref-striped-cucumber-beetle",
+    "origin": "reference",
+    "artist": "Scott Bauer, USDA Agricultural Research Service",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Acalymma_vittatum_1323034.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Acalymma_vittatum_1323034.jpg/960px-Acalymma_vittatum_1323034.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-striped-cucumber-beetle-b91e073b22731233/thumb.jpg",
+    "thumbWebp": "/media/ref-striped-cucumber-beetle-b91e073b22731233/thumb.webp",
+    "card": "/media/ref-striped-cucumber-beetle-b91e073b22731233/card.jpg",
+    "cardWebp": "/media/ref-striped-cucumber-beetle-b91e073b22731233/card.webp",
+    "sourceBytes": 362072,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-striped-cucumber-beetle-b91e073b22731233/853.jpg",
+    "webp": "/media/ref-striped-cucumber-beetle-b91e073b22731233/853.webp",
+    "width": 853,
+    "height": 1280,
+    "variants": [
+      {
+        "width": 427,
+        "height": 640,
+        "src": "/media/ref-striped-cucumber-beetle-b91e073b22731233/427.jpg",
+        "webp": "/media/ref-striped-cucumber-beetle-b91e073b22731233/427.webp"
+      },
+      {
+        "width": 853,
+        "height": 1280,
+        "src": "/media/ref-striped-cucumber-beetle-b91e073b22731233/853.jpg",
+        "webp": "/media/ref-striped-cucumber-beetle-b91e073b22731233/853.webp"
+      }
+    ],
+    "revision": "b91e073b22731233",
+    "gallery": []
+  },
+  "common-whirligig-beetle": {
+    "id": "ref-common-whirligig-beetle",
+    "origin": "reference",
+    "artist": "Mick E. Talbot",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gyrinus_natator.jpg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Gyrinus_natator.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-common-whirligig-beetle-935b1600b4c61bc2/thumb.jpg",
+    "thumbWebp": "/media/ref-common-whirligig-beetle-935b1600b4c61bc2/thumb.webp",
+    "card": "/media/ref-common-whirligig-beetle-935b1600b4c61bc2/card.jpg",
+    "cardWebp": "/media/ref-common-whirligig-beetle-935b1600b4c61bc2/card.webp",
+    "sourceBytes": 589830,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-common-whirligig-beetle-935b1600b4c61bc2/737.jpg",
+    "webp": "/media/ref-common-whirligig-beetle-935b1600b4c61bc2/737.webp",
+    "width": 737,
+    "height": 600,
+    "variants": [
+      {
+        "width": 640,
+        "height": 521,
+        "src": "/media/ref-common-whirligig-beetle-935b1600b4c61bc2/640.jpg",
+        "webp": "/media/ref-common-whirligig-beetle-935b1600b4c61bc2/640.webp"
+      },
+      {
+        "width": 737,
+        "height": 600,
+        "src": "/media/ref-common-whirligig-beetle-935b1600b4c61bc2/737.jpg",
+        "webp": "/media/ref-common-whirligig-beetle-935b1600b4c61bc2/737.webp"
+      }
+    ],
+    "revision": "935b1600b4c61bc2",
+    "gallery": []
+  },
+  "giraffe-weevil": {
+    "id": "ref-giraffe-weevil",
+    "origin": "reference",
+    "artist": "Frank Vassen",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Giraffe_Weevil,_Andasibe,_Madagascar.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Giraffe_Weevil%2C_Andasibe%2C_Madagascar.jpg/960px-Giraffe_Weevil%2C_Andasibe%2C_Madagascar.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-giraffe-weevil-52e069f872e97ddd/thumb.jpg",
+    "thumbWebp": "/media/ref-giraffe-weevil-52e069f872e97ddd/thumb.webp",
+    "card": "/media/ref-giraffe-weevil-52e069f872e97ddd/card.jpg",
+    "cardWebp": "/media/ref-giraffe-weevil-52e069f872e97ddd/card.webp",
+    "sourceBytes": 127500,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-giraffe-weevil-52e069f872e97ddd/960.jpg",
+    "webp": "/media/ref-giraffe-weevil-52e069f872e97ddd/960.webp",
+    "width": 960,
+    "height": 720,
+    "variants": [
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/media/ref-giraffe-weevil-52e069f872e97ddd/640.jpg",
+        "webp": "/media/ref-giraffe-weevil-52e069f872e97ddd/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/media/ref-giraffe-weevil-52e069f872e97ddd/960.jpg",
+        "webp": "/media/ref-giraffe-weevil-52e069f872e97ddd/960.webp"
+      }
+    ],
+    "revision": "52e069f872e97ddd",
+    "gallery": []
+  },
+  "violin-beetle": {
+    "id": "ref-violin-beetle",
+    "origin": "reference",
+    "artist": "Orbigny, Charles Dessalines d'",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Mormolyce_phyllodes_crop.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Mormolyce_phyllodes_crop.jpg/960px-Mormolyce_phyllodes_crop.jpg",
+    "kind": "specimen",
+    "caption": "标本参考照片 · 提琴步甲",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-violin-beetle-3f7325e5730342f1/thumb.jpg",
+    "thumbWebp": "/media/ref-violin-beetle-3f7325e5730342f1/thumb.webp",
+    "card": "/media/ref-violin-beetle-3f7325e5730342f1/card.jpg",
+    "cardWebp": "/media/ref-violin-beetle-3f7325e5730342f1/card.webp",
+    "sourceBytes": 61262,
+    "recipeHash": "b132ab44e38ffb13285124969921c40ebc861ff5b94188e994c6d5f700d3de67",
+    "src": "/media/ref-violin-beetle-3f7325e5730342f1/960.jpg",
+    "webp": "/media/ref-violin-beetle-3f7325e5730342f1/960.webp",
+    "width": 960,
+    "height": 868,
+    "variants": [
+      {
+        "width": 640,
+        "height": 579,
+        "src": "/media/ref-violin-beetle-3f7325e5730342f1/640.jpg",
+        "webp": "/media/ref-violin-beetle-3f7325e5730342f1/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 868,
+        "src": "/media/ref-violin-beetle-3f7325e5730342f1/960.jpg",
+        "webp": "/media/ref-violin-beetle-3f7325e5730342f1/960.webp"
+      }
+    ],
+    "revision": "3f7325e5730342f1",
+    "gallery": []
+  },
+  "aldabra-giant-tortoise": {
+    "id": "ref-aldabra-giant-tortoise",
+    "origin": "reference",
+    "artist": "Yotcmdr",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Giant_Tortoise.JPG",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Giant_Tortoise.JPG/960px-Giant_Tortoise.JPG",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-aldabra-giant-tortoise-6da4d94e05ed71a1/thumb.jpg",
+    "thumbWebp": "/media/ref-aldabra-giant-tortoise-6da4d94e05ed71a1/thumb.webp",
+    "card": "/media/ref-aldabra-giant-tortoise-6da4d94e05ed71a1/card.jpg",
+    "cardWebp": "/media/ref-aldabra-giant-tortoise-6da4d94e05ed71a1/card.webp",
+    "sourceBytes": 357892,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-aldabra-giant-tortoise-6da4d94e05ed71a1/960.jpg",
+    "webp": "/media/ref-aldabra-giant-tortoise-6da4d94e05ed71a1/960.webp",
+    "width": 960,
+    "height": 719,
+    "variants": [
+      {
+        "width": 640,
+        "height": 479,
+        "src": "/media/ref-aldabra-giant-tortoise-6da4d94e05ed71a1/640.jpg",
+        "webp": "/media/ref-aldabra-giant-tortoise-6da4d94e05ed71a1/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 719,
+        "src": "/media/ref-aldabra-giant-tortoise-6da4d94e05ed71a1/960.jpg",
+        "webp": "/media/ref-aldabra-giant-tortoise-6da4d94e05ed71a1/960.webp"
+      }
+    ],
+    "revision": "6da4d94e05ed71a1",
+    "gallery": []
+  },
+  "scarlet-macaw": {
+    "id": "ref-scarlet-macaw",
+    "origin": "reference",
+    "artist": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Scarlet_macaw_(Ara_macao_cyanopterus)_Copan.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg/960px-Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-scarlet-macaw-cec59550e180a7f4/thumb.jpg",
+    "thumbWebp": "/media/ref-scarlet-macaw-cec59550e180a7f4/thumb.webp",
+    "card": "/media/ref-scarlet-macaw-cec59550e180a7f4/card.jpg",
+    "cardWebp": "/media/ref-scarlet-macaw-cec59550e180a7f4/card.webp",
+    "sourceBytes": 224298,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-scarlet-macaw-cec59550e180a7f4/960.jpg",
+    "webp": "/media/ref-scarlet-macaw-cec59550e180a7f4/960.webp",
+    "width": 960,
+    "height": 640,
+    "variants": [
+      {
+        "width": 640,
+        "height": 427,
+        "src": "/media/ref-scarlet-macaw-cec59550e180a7f4/640.jpg",
+        "webp": "/media/ref-scarlet-macaw-cec59550e180a7f4/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/media/ref-scarlet-macaw-cec59550e180a7f4/960.jpg",
+        "webp": "/media/ref-scarlet-macaw-cec59550e180a7f4/960.webp"
+      }
+    ],
+    "revision": "cec59550e180a7f4",
+    "gallery": []
+  },
+  "resplendent-quetzal": {
+    "id": "ref-resplendent-quetzal",
+    "origin": "reference",
+    "artist": "lwolfartist",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Resplendent_quetzal_san_gerardo_de_dota_3.31.24_DSC_3989-topaz-denoiseraw.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Resplendent_quetzal_san_gerardo_de_dota_3.31.24_DSC_3989-topaz-denoiseraw.jpg/960px-Resplendent_quetzal_san_gerardo_de_dota_3.31.24_DSC_3989-topaz-denoiseraw.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-resplendent-quetzal-de57c0860d44eaa3/thumb.jpg",
+    "thumbWebp": "/media/ref-resplendent-quetzal-de57c0860d44eaa3/thumb.webp",
+    "card": "/media/ref-resplendent-quetzal-de57c0860d44eaa3/card.jpg",
+    "cardWebp": "/media/ref-resplendent-quetzal-de57c0860d44eaa3/card.webp",
+    "sourceBytes": 520182,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-resplendent-quetzal-de57c0860d44eaa3/960.jpg",
+    "webp": "/media/ref-resplendent-quetzal-de57c0860d44eaa3/960.webp",
+    "width": 960,
+    "height": 1200,
+    "variants": [
+      {
+        "width": 512,
+        "height": 640,
+        "src": "/media/ref-resplendent-quetzal-de57c0860d44eaa3/512.jpg",
+        "webp": "/media/ref-resplendent-quetzal-de57c0860d44eaa3/512.webp"
+      },
+      {
+        "width": 960,
+        "height": 1200,
+        "src": "/media/ref-resplendent-quetzal-de57c0860d44eaa3/960.jpg",
+        "webp": "/media/ref-resplendent-quetzal-de57c0860d44eaa3/960.webp"
+      }
+    ],
+    "revision": "de57c0860d44eaa3",
+    "gallery": []
+  },
+  "raggiana-bird-of-paradise": {
+    "id": "ref-raggiana-bird-of-paradise",
+    "origin": "reference",
+    "artist": "JJ Harrison",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Raggiana_Bird-of-paradise_0A2A5379.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Raggiana_Bird-of-paradise_0A2A5379.jpg/960px-Raggiana_Bird-of-paradise_0A2A5379.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-raggiana-bird-of-paradise-7763ae3536eec477/thumb.jpg",
+    "thumbWebp": "/media/ref-raggiana-bird-of-paradise-7763ae3536eec477/thumb.webp",
+    "card": "/media/ref-raggiana-bird-of-paradise-7763ae3536eec477/card.jpg",
+    "cardWebp": "/media/ref-raggiana-bird-of-paradise-7763ae3536eec477/card.webp",
+    "sourceBytes": 143309,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-raggiana-bird-of-paradise-7763ae3536eec477/960.jpg",
+    "webp": "/media/ref-raggiana-bird-of-paradise-7763ae3536eec477/960.webp",
+    "width": 960,
+    "height": 640,
+    "variants": [
+      {
+        "width": 640,
+        "height": 427,
+        "src": "/media/ref-raggiana-bird-of-paradise-7763ae3536eec477/640.jpg",
+        "webp": "/media/ref-raggiana-bird-of-paradise-7763ae3536eec477/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/media/ref-raggiana-bird-of-paradise-7763ae3536eec477/960.jpg",
+        "webp": "/media/ref-raggiana-bird-of-paradise-7763ae3536eec477/960.webp"
+      }
+    ],
+    "revision": "7763ae3536eec477",
+    "gallery": []
+  },
+  "binturong": {
+    "id": "ref-binturong",
+    "origin": "reference",
+    "artist": "Tassilo Rau",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Binturong_in_Overloon.jpg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Binturong_in_Overloon.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-binturong-0cefb11987d04685/thumb.jpg",
+    "thumbWebp": "/media/ref-binturong-0cefb11987d04685/thumb.webp",
+    "card": "/media/ref-binturong-0cefb11987d04685/card.jpg",
+    "cardWebp": "/media/ref-binturong-0cefb11987d04685/card.webp",
+    "sourceBytes": 121363,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-binturong-0cefb11987d04685/800.jpg",
+    "webp": "/media/ref-binturong-0cefb11987d04685/800.webp",
+    "width": 800,
+    "height": 545,
+    "variants": [
+      {
+        "width": 640,
+        "height": 436,
+        "src": "/media/ref-binturong-0cefb11987d04685/640.jpg",
+        "webp": "/media/ref-binturong-0cefb11987d04685/640.webp"
+      },
+      {
+        "width": 800,
+        "height": 545,
+        "src": "/media/ref-binturong-0cefb11987d04685/800.jpg",
+        "webp": "/media/ref-binturong-0cefb11987d04685/800.webp"
+      }
+    ],
+    "revision": "0cefb11987d04685",
+    "gallery": []
+  },
+  "chinese-pangolin": {
+    "id": "ref-chinese-pangolin",
+    "origin": "reference",
+    "artist": "U.S. Fish and Wildlife Service Headquarters",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Manis_pentadactyla_(29054818144).jpg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/9/94/Manis_pentadactyla_%2829054818144%29.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-chinese-pangolin-d75ec07e63596dbf/thumb.jpg",
+    "thumbWebp": "/media/ref-chinese-pangolin-d75ec07e63596dbf/thumb.webp",
+    "card": "/media/ref-chinese-pangolin-d75ec07e63596dbf/card.jpg",
+    "cardWebp": "/media/ref-chinese-pangolin-d75ec07e63596dbf/card.webp",
+    "sourceBytes": 252977,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-chinese-pangolin-d75ec07e63596dbf/881.jpg",
+    "webp": "/media/ref-chinese-pangolin-d75ec07e63596dbf/881.webp",
+    "width": 881,
+    "height": 589,
+    "variants": [
+      {
+        "width": 640,
+        "height": 428,
+        "src": "/media/ref-chinese-pangolin-d75ec07e63596dbf/640.jpg",
+        "webp": "/media/ref-chinese-pangolin-d75ec07e63596dbf/640.webp"
+      },
+      {
+        "width": 881,
+        "height": 589,
+        "src": "/media/ref-chinese-pangolin-d75ec07e63596dbf/881.jpg",
+        "webp": "/media/ref-chinese-pangolin-d75ec07e63596dbf/881.webp"
+      }
+    ],
+    "revision": "d75ec07e63596dbf",
+    "gallery": []
+  },
+  "american-flamingo": {
+    "id": "ref-american-flamingo",
+    "origin": "reference",
+    "artist": "JeffreyGammon",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:American_Flamingo_JG.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/American_Flamingo_JG.jpg/960px-American_Flamingo_JG.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-american-flamingo-1665ef15c1b13367/thumb.jpg",
+    "thumbWebp": "/media/ref-american-flamingo-1665ef15c1b13367/thumb.webp",
+    "card": "/media/ref-american-flamingo-1665ef15c1b13367/card.jpg",
+    "cardWebp": "/media/ref-american-flamingo-1665ef15c1b13367/card.webp",
+    "sourceBytes": 120283,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-american-flamingo-1665ef15c1b13367/960.jpg",
+    "webp": "/media/ref-american-flamingo-1665ef15c1b13367/960.webp",
+    "width": 960,
+    "height": 720,
+    "variants": [
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/media/ref-american-flamingo-1665ef15c1b13367/640.jpg",
+        "webp": "/media/ref-american-flamingo-1665ef15c1b13367/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/media/ref-american-flamingo-1665ef15c1b13367/960.jpg",
+        "webp": "/media/ref-american-flamingo-1665ef15c1b13367/960.webp"
+      }
+    ],
+    "revision": "1665ef15c1b13367",
+    "gallery": []
+  },
+  "hawksbill-turtle": {
+    "id": "ref-hawksbill-turtle",
+    "origin": "reference",
+    "artist": "Thierry Caro",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Eretmochelys-imbricata-K%C3%A9lonia-2.JPG",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Eretmochelys-imbricata-K%C3%A9lonia-2.JPG/960px-Eretmochelys-imbricata-K%C3%A9lonia-2.JPG",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-hawksbill-turtle-bbf54d1dac6dc530/thumb.jpg",
+    "thumbWebp": "/media/ref-hawksbill-turtle-bbf54d1dac6dc530/thumb.webp",
+    "card": "/media/ref-hawksbill-turtle-bbf54d1dac6dc530/card.jpg",
+    "cardWebp": "/media/ref-hawksbill-turtle-bbf54d1dac6dc530/card.webp",
+    "sourceBytes": 178498,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-hawksbill-turtle-bbf54d1dac6dc530/960.jpg",
+    "webp": "/media/ref-hawksbill-turtle-bbf54d1dac6dc530/960.webp",
+    "width": 960,
+    "height": 640,
+    "variants": [
+      {
+        "width": 640,
+        "height": 427,
+        "src": "/media/ref-hawksbill-turtle-bbf54d1dac6dc530/640.jpg",
+        "webp": "/media/ref-hawksbill-turtle-bbf54d1dac6dc530/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/media/ref-hawksbill-turtle-bbf54d1dac6dc530/960.jpg",
+        "webp": "/media/ref-hawksbill-turtle-bbf54d1dac6dc530/960.webp"
+      }
+    ],
+    "revision": "bbf54d1dac6dc530",
+    "gallery": []
+  },
+  "leafy-seadragon": {
+    "id": "ref-leafy-seadragon",
+    "origin": "reference",
+    "artist": "James Rosindell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Leafy_Seadragon_on_Kangaroo_Island.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Leafy_Seadragon_on_Kangaroo_Island.jpg/960px-Leafy_Seadragon_on_Kangaroo_Island.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-leafy-seadragon-9a71c1c80b1268fd/thumb.jpg",
+    "thumbWebp": "/media/ref-leafy-seadragon-9a71c1c80b1268fd/thumb.webp",
+    "card": "/media/ref-leafy-seadragon-9a71c1c80b1268fd/card.jpg",
+    "cardWebp": "/media/ref-leafy-seadragon-9a71c1c80b1268fd/card.webp",
+    "sourceBytes": 157245,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-leafy-seadragon-9a71c1c80b1268fd/960.jpg",
+    "webp": "/media/ref-leafy-seadragon-9a71c1c80b1268fd/960.webp",
+    "width": 960,
+    "height": 639,
+    "variants": [
+      {
+        "width": 640,
+        "height": 426,
+        "src": "/media/ref-leafy-seadragon-9a71c1c80b1268fd/640.jpg",
+        "webp": "/media/ref-leafy-seadragon-9a71c1c80b1268fd/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 639,
+        "src": "/media/ref-leafy-seadragon-9a71c1c80b1268fd/960.jpg",
+        "webp": "/media/ref-leafy-seadragon-9a71c1c80b1268fd/960.webp"
+      }
+    ],
+    "revision": "9a71c1c80b1268fd",
+    "gallery": []
+  },
+  "chambered-nautilus": {
+    "id": "ref-chambered-nautilus",
+    "origin": "reference",
+    "artist": "Hans Hillewaert",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nautilus_pompilius_(detail).jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Nautilus_pompilius_%28detail%29.jpg/960px-Nautilus_pompilius_%28detail%29.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-chambered-nautilus-e6243577f55cb217/thumb.jpg",
+    "thumbWebp": "/media/ref-chambered-nautilus-e6243577f55cb217/thumb.webp",
+    "card": "/media/ref-chambered-nautilus-e6243577f55cb217/card.jpg",
+    "cardWebp": "/media/ref-chambered-nautilus-e6243577f55cb217/card.webp",
+    "sourceBytes": 126655,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-chambered-nautilus-e6243577f55cb217/960.jpg",
+    "webp": "/media/ref-chambered-nautilus-e6243577f55cb217/960.webp",
+    "width": 960,
+    "height": 640,
+    "variants": [
+      {
+        "width": 640,
+        "height": 427,
+        "src": "/media/ref-chambered-nautilus-e6243577f55cb217/640.jpg",
+        "webp": "/media/ref-chambered-nautilus-e6243577f55cb217/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/media/ref-chambered-nautilus-e6243577f55cb217/960.jpg",
+        "webp": "/media/ref-chambered-nautilus-e6243577f55cb217/960.webp"
+      }
+    ],
+    "revision": "e6243577f55cb217",
+    "gallery": []
+  },
+  "true-giant-clam": {
+    "id": "ref-true-giant-clam",
+    "origin": "reference",
+    "artist": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Giant_clam_(Tridacna_gigas)_Michaelmas_Cay.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Giant_clam_%28Tridacna_gigas%29_Michaelmas_Cay.jpg/960px-Giant_clam_%28Tridacna_gigas%29_Michaelmas_Cay.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-true-giant-clam-df0027e5a7cdfaea/thumb.jpg",
+    "thumbWebp": "/media/ref-true-giant-clam-df0027e5a7cdfaea/thumb.webp",
+    "card": "/media/ref-true-giant-clam-df0027e5a7cdfaea/card.jpg",
+    "cardWebp": "/media/ref-true-giant-clam-df0027e5a7cdfaea/card.webp",
+    "sourceBytes": 242538,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-true-giant-clam-df0027e5a7cdfaea/960.jpg",
+    "webp": "/media/ref-true-giant-clam-df0027e5a7cdfaea/960.webp",
+    "width": 960,
+    "height": 780,
+    "variants": [
+      {
+        "width": 640,
+        "height": 520,
+        "src": "/media/ref-true-giant-clam-df0027e5a7cdfaea/640.jpg",
+        "webp": "/media/ref-true-giant-clam-df0027e5a7cdfaea/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 780,
+        "src": "/media/ref-true-giant-clam-df0027e5a7cdfaea/960.jpg",
+        "webp": "/media/ref-true-giant-clam-df0027e5a7cdfaea/960.webp"
+      }
+    ],
+    "revision": "df0027e5a7cdfaea",
+    "gallery": []
+  },
+  "harlequin-ladybird": {
+    "id": "ref-harlequin-ladybird",
+    "origin": "reference",
+    "artist": "spacebirdy(also known as geimfyglið (:> )=| made with Sternenlaus-spirit)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Harmonia_axyridis_-_botanischer_Garten_Sch%C3%B6nbrunn.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Harmonia_axyridis_-_botanischer_Garten_Sch%C3%B6nbrunn.jpg/960px-Harmonia_axyridis_-_botanischer_Garten_Sch%C3%B6nbrunn.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-harlequin-ladybird-3a8875bfeef399b1/thumb.jpg",
+    "thumbWebp": "/media/ref-harlequin-ladybird-3a8875bfeef399b1/thumb.webp",
+    "card": "/media/ref-harlequin-ladybird-3a8875bfeef399b1/card.jpg",
+    "cardWebp": "/media/ref-harlequin-ladybird-3a8875bfeef399b1/card.webp",
+    "sourceBytes": 158476,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-harlequin-ladybird-3a8875bfeef399b1/960.jpg",
+    "webp": "/media/ref-harlequin-ladybird-3a8875bfeef399b1/960.webp",
+    "width": 960,
+    "height": 640,
+    "variants": [
+      {
+        "width": 640,
+        "height": 427,
+        "src": "/media/ref-harlequin-ladybird-3a8875bfeef399b1/640.jpg",
+        "webp": "/media/ref-harlequin-ladybird-3a8875bfeef399b1/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/media/ref-harlequin-ladybird-3a8875bfeef399b1/960.jpg",
+        "webp": "/media/ref-harlequin-ladybird-3a8875bfeef399b1/960.webp"
+      }
+    ],
+    "revision": "3a8875bfeef399b1",
+    "gallery": []
+  },
+  "two-spot-ladybird": {
+    "id": "ref-two-spot-ladybird",
+    "origin": "reference",
+    "artist": "Hectonichus",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Coccinellidae_-_Adalia_bipunctata.JPG",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Coccinellidae_-_Adalia_bipunctata.JPG/960px-Coccinellidae_-_Adalia_bipunctata.JPG",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-two-spot-ladybird-95cfeac2ca9e66e6/thumb.jpg",
+    "thumbWebp": "/media/ref-two-spot-ladybird-95cfeac2ca9e66e6/thumb.webp",
+    "card": "/media/ref-two-spot-ladybird-95cfeac2ca9e66e6/card.jpg",
+    "cardWebp": "/media/ref-two-spot-ladybird-95cfeac2ca9e66e6/card.webp",
+    "sourceBytes": 110155,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-two-spot-ladybird-95cfeac2ca9e66e6/960.jpg",
+    "webp": "/media/ref-two-spot-ladybird-95cfeac2ca9e66e6/960.webp",
+    "width": 960,
+    "height": 719,
+    "variants": [
+      {
+        "width": 640,
+        "height": 479,
+        "src": "/media/ref-two-spot-ladybird-95cfeac2ca9e66e6/640.jpg",
+        "webp": "/media/ref-two-spot-ladybird-95cfeac2ca9e66e6/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 719,
+        "src": "/media/ref-two-spot-ladybird-95cfeac2ca9e66e6/960.jpg",
+        "webp": "/media/ref-two-spot-ladybird-95cfeac2ca9e66e6/960.webp"
+      }
+    ],
+    "revision": "95cfeac2ca9e66e6",
+    "gallery": []
+  },
+  "blue-footed-booby": {
+    "id": "ref-blue-footed-booby",
+    "origin": "reference",
+    "artist": "Pete",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Blue-footed_Booby_(Sula_nebouxii)_-displaying.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Blue-footed_Booby_%28Sula_nebouxii%29_-displaying.jpg/960px-Blue-footed_Booby_%28Sula_nebouxii%29_-displaying.jpg",
+    "kind": "photo",
+    "caption": "参考照片",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-blue-footed-booby-2dbc79d5ecfb2dad/thumb.jpg",
+    "thumbWebp": "/media/ref-blue-footed-booby-2dbc79d5ecfb2dad/thumb.webp",
+    "card": "/media/ref-blue-footed-booby-2dbc79d5ecfb2dad/card.jpg",
+    "cardWebp": "/media/ref-blue-footed-booby-2dbc79d5ecfb2dad/card.webp",
+    "sourceBytes": 315257,
+    "recipeHash": "b810eafe23ceb2959b6bc173fbf2b17f597a5d42ec61a917eaf33f645169591f",
+    "src": "/media/ref-blue-footed-booby-2dbc79d5ecfb2dad/960.jpg",
+    "webp": "/media/ref-blue-footed-booby-2dbc79d5ecfb2dad/960.webp",
+    "width": 960,
+    "height": 720,
+    "variants": [
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/media/ref-blue-footed-booby-2dbc79d5ecfb2dad/640.jpg",
+        "webp": "/media/ref-blue-footed-booby-2dbc79d5ecfb2dad/640.webp"
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/media/ref-blue-footed-booby-2dbc79d5ecfb2dad/960.jpg",
+        "webp": "/media/ref-blue-footed-booby-2dbc79d5ecfb2dad/960.webp"
+      }
+    ],
+    "revision": "2dbc79d5ecfb2dad",
+    "gallery": []
+  },
+  "titan-beetle": {
+    "id": "ref-titan-beetle",
+    "origin": "reference",
+    "artist": "Hectonichus",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cerambycidae_-_Titanus_giganteus-001.JPG",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Cerambycidae_-_Titanus_giganteus-001.JPG/960px-Cerambycidae_-_Titanus_giganteus-001.JPG",
+    "kind": "specimen",
+    "caption": "标本参考照片 · 泰坦大天牛",
+    "fit": "contain",
+    "role": "reference",
+    "thumb": "/media/ref-titan-beetle-d18973431b23df17/thumb.jpg",
+    "thumbWebp": "/media/ref-titan-beetle-d18973431b23df17/thumb.webp",
+    "card": "/media/ref-titan-beetle-d18973431b23df17/card.jpg",
+    "cardWebp": "/media/ref-titan-beetle-d18973431b23df17/card.webp",
+    "sourceBytes": 185472,
+    "recipeHash": "b132ab44e38ffb13285124969921c40ebc861ff5b94188e994c6d5f700d3de67",
+    "src": "/media/ref-titan-beetle-d18973431b23df17/960.jpg",
+    "webp": "/media/ref-titan-beetle-d18973431b23df17/960.webp",
+    "width": 960,
+    "height": 1279,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "src": "/media/ref-titan-beetle-d18973431b23df17/480.jpg",
+        "webp": "/media/ref-titan-beetle-d18973431b23df17/480.webp"
+      },
+      {
+        "width": 960,
+        "height": 1279,
+        "src": "/media/ref-titan-beetle-d18973431b23df17/960.jpg",
+        "webp": "/media/ref-titan-beetle-d18973431b23df17/960.webp"
+      }
+    ],
+    "revision": "d18973431b23df17",
+    "gallery": []
+  },
   "pelican-family": {
     "id": "zoo-20261114-01",
     "origin": "family",

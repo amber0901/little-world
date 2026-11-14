@@ -1,6 +1,6 @@
 # 图片与素材署名
 
-237个条目使用233张参考配图及10张用户提供的动物园照片（包含1张园区知识牌照片）。亲子实拍只获得本项目使用授权，不自动采用MIT或CC许可。参考图片来自Wikimedia Commons，遵循各自许可。
+275个条目使用271张参考配图及10张用户提供的动物园照片（包含1张园区知识牌照片）。亲子实拍只获得本项目使用授权，不自动采用MIT或CC许可。参考图片来自Wikimedia Commons，遵循各自许可。
 
 公开版本经过裁切、缩放和格式压缩，地图和列表使用专用小图。原图仅在本地素材目录归档，用户照片的EXIF/XMP未带入公开图片。马里亚纳海沟为地理示意图，白犀的用户照片为知识牌，界面均有标注。
 
@@ -249,5 +249,43 @@
 | 长鼻浣熊 · 亲子实拍 · 长鼻浣熊 | 用户与孩子的亲子实拍 | 用户提供，授权本项目使用；未另授开放许可 | [实拍来源记录](FAMILY_MATERIALS.md) |
 | 巨嘴鸟家族 · 亲子实拍 · 巨嘴鸟 | 用户与孩子的亲子实拍 | 用户提供，授权本项目使用；未另授开放许可 | [实拍来源记录](FAMILY_MATERIALS.md) |
 | 陆龟家族 · 亲子实拍 · 陆龟 | 用户与孩子的亲子实拍 | 用户提供，授权本项目使用；未另授开放许可 | [实拍来源记录](FAMILY_MATERIALS.md) |
+| 九寨沟 · 参考照片 | Chensiyuan | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg) |
+| 姬路城 · 参考照片 | Nikos Kitsakis | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Himeji_castle_in_may_2015.jpg) |
+| 风之宫 · 参考照片 | Chainwit. | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg) |
+| 摩亨佐达罗古城 · 参考照片 | Saqib Qayyum | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Mohenjodaro_-_view_of_the_stupa_mound.JPG) |
+| 姆鲁国家公园 · 参考照片 | Juanita at the Japanese wikpedia | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) | [原图与授权](https://commons.wikimedia.org/wiki/File:Mulu.JPG) |
+| 卢浮宫博物馆 · 参考照片 | Benh LIEU SONG (Flickr) | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Louvre_Museum_Wikimedia_Commons.jpg) |
+| 比萨斜塔 · 参考照片 | Arne Müseler | [CC BY-SA 3.0 de](https://creativecommons.org/licenses/by-sa/3.0/de/deed.en) | [原图与授权](https://commons.wikimedia.org/wiki/File:Italy_-_Pisa_-_Leaning_Tower.jpg) |
+| 迈泰奥拉修道院群 · 参考照片 | Stathis floros | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Meteora%27s_monastery_2.jpg) |
+| 吉萨狮身人面像 · 参考照片 | Hesham Ebaid | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [原图与授权](https://commons.wikimedia.org/wiki/File:Sphinx_with_the_third_pyramid.jpg) |
+| 博尔德斯企鹅海滩 · 参考照片 | Olga Ernst | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Boulders_Beach_Suedafrika.jpg) |
+| 班夫国家公园 · 参考照片 | Gorgo | [Public domain](https://commons.wikimedia.org/wiki/File:Moraine_Lake_17092005.jpg) | [原图与授权](https://commons.wikimedia.org/wiki/File:Moraine_Lake_17092005.jpg) |
+| 拉帕努伊摩艾石像 · 参考照片 | Ian Sewell | [CC BY 2.5](https://creativecommons.org/licenses/by/2.5) | [原图与授权](https://commons.wikimedia.org/wiki/File:AhuTongariki.JPG) |
+| 佩里托莫雷诺冰川 · 参考照片 | Fernando | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Perito_Moreno_Glacier_2023.jpg) |
+| 十二门徒岩 · 参考照片 | Michael J Fromholtz | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:The_Twelve_Apostles_2011.jpg) |
+| 欧洲鳃金龟 · 参考照片 | Frank Vassen from Brussels, Belgium | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Hanneton_commun_(Melolontha_melolontha)_%E2%99%80,_Parc_de_Woluw%C3%A9,_Bruxelles_(51222810874).jpg) |
+| 普通粪金龟 · 参考照片 | Rasbak at Dutch Wikipedia | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) | [原图与授权](https://commons.wikimedia.org/wiki/File:Mestkever.jpg) |
+| 紫油甲 · 参考照片 | Hectonichus | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Meloidae_-_Meloe_violaceus.JPG) |
+| 艾菊叶甲 · 参考照片 | Zakhx150 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Tansy_Beetle_(Chrysolina_Graminis)_in_York,_UK_(cropped).jpg) |
+| 迷迭香叶甲 · 参考照片 | Hectonichus | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Chrysomelidae_-_Chrysolina_americana.JPG) |
+| 异色瓢虫 · 参考照片 | spacebirdy(also known as geimfyglið (:> )=/ made with Sternenlaus-spirit) | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Harmonia_axyridis_-_botanischer_Garten_Sch%C3%B6nbrunn.jpg) |
+| 二星瓢虫 · 参考照片 | Hectonichus | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Coccinellidae_-_Adalia_bipunctata.JPG) |
+| 条纹黄瓜叶甲 · 参考照片 | Scott Bauer, USDA Agricultural Research Service | [Public domain](https://commons.wikimedia.org/wiki/File:Acalymma_vittatum_1323034.jpg) | [原图与授权](https://commons.wikimedia.org/wiki/File:Acalymma_vittatum_1323034.jpg) |
+| 普通豉甲 · 参考照片 | Mick E. Talbot | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Gyrinus_natator.jpg) |
+| 泰坦大天牛 · 标本参考照片 · 泰坦大天牛 | Hectonichus | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Cerambycidae_-_Titanus_giganteus-001.JPG) |
+| 长颈鹿象鼻虫 · 参考照片 | Frank Vassen | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Giraffe_Weevil,_Andasibe,_Madagascar.jpg) |
+| 提琴步甲 · 标本参考照片 · 提琴步甲 | Orbigny, Charles Dessalines d' | [Public domain](https://commons.wikimedia.org/wiki/File:Mormolyce_phyllodes_crop.jpg) | [原图与授权](https://commons.wikimedia.org/wiki/File:Mormolyce_phyllodes_crop.jpg) |
+| 阿尔达布拉象龟 · 参考照片 | Yotcmdr | [Public domain](https://commons.wikimedia.org/wiki/File:Giant_Tortoise.JPG) | [原图与授权](https://commons.wikimedia.org/wiki/File:Giant_Tortoise.JPG) |
+| 绯红金刚鹦鹉 · 参考照片 | Charles J. Sharp | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Scarlet_macaw_(Ara_macao_cyanopterus)_Copan.jpg) |
+| 凤尾绿咬鹃 · 参考照片 | lwolfartist | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Resplendent_quetzal_san_gerardo_de_dota_3.31.24_DSC_3989-topaz-denoiseraw.jpg) |
+| 拉氏极乐鸟 · 参考照片 | JJ Harrison | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Raggiana_Bird-of-paradise_0A2A5379.jpg) |
+| 蓝脚鲣鸟 · 参考照片 | Pete | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Blue-footed_Booby_(Sula_nebouxii)_-displaying.jpg) |
+| 熊狸 · 参考照片 | Tassilo Rau | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) | [原图与授权](https://commons.wikimedia.org/wiki/File:Binturong_in_Overloon.jpg) |
+| 中华穿山甲 · 参考照片 | U.S. Fish and Wildlife Service Headquarters | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Manis_pentadactyla_(29054818144).jpg) |
+| 美洲红鹳 · 参考照片 | JeffreyGammon | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:American_Flamingo_JG.jpg) |
+| 玳瑁 · 参考照片 | Thierry Caro | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) | [原图与授权](https://commons.wikimedia.org/wiki/File:Eretmochelys-imbricata-K%C3%A9lonia-2.JPG) |
+| 叶海龙 · 参考照片 | James Rosindell | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Leafy_Seadragon_on_Kangaroo_Island.jpg) |
+| 具室鹦鹉螺 · 参考照片 | Hans Hillewaert | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Nautilus_pompilius_(detail).jpg) |
+| 大砗磲 · 参考照片 | Charles J. Sharp | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [原图与授权](https://commons.wikimedia.org/wiki/File:Giant_clam_(Tridacna_gigas)_Michaelmas_Cay.jpg) |
 
 底图：Natural Earth 1:110m Admin 0 Countries，Public Domain。中文讲解：原创文字，使用macOS Tingting制作，句间约420ms停顿，AAC/M4A。所有图像与音频为本地资源，运行时不向素材来源网站请求。

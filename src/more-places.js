@@ -1,0 +1,23 @@
+// Third content expansion: original short descriptions for young listeners.
+// Independent data module; no imports from data.js. Researched 2026-11-14.
+const u=id=>`https://whc.unesco.org/en/list/${id}/`;
+const place=(id,name,en,icon,coords,countries,region,habitat,intro,funFact,wiki,sources,nature=false)=>({id,type:'landmark',name,en,icon,coords,countries,region,habitat,diet:'',intro,funFact,wiki,sources,featured:false,...(nature?{subtype:'nature'}:{})});
+export const morePlaces=[
+place('jiuzhaigou','九寨沟','Jiuzhaigou','🏞️',[103.918,33.163],['CHN'],'亚洲 · 中国四川','高山森林、湖泊与瀑布','九寨沟的山谷里，湖泊和瀑布被森林连接起来，湖水会呈现不同颜色。清澈的水、湖底物质和周围景色一起影响光线，让湖面像一块块彩色宝石。','当地常把湖泊叫作“海子”，但这里并不是大海。','Jiuzhaigou',[u(637),'https://www.jiuzhai.com/about/scenic-spot'],true),
+place('himeji-castle','姬路城','Himeji Castle','🏯',[134.6939,34.8394],['JPN'],'亚洲 · 日本姬路','城堡与城墙','姬路城有白色外墙和一层层展开的屋顶，远看像一只停在山上的白鸟。它原来是一座用于防守的城堡，城门和道路也经过仔细安排。','城堡外面虽然白白的，里面的重要结构却使用了木头。','Himeji Castle',[u(661)]),
+place('hawa-mahal','风之宫','Hawa Mahal','🏰',[75.8267,26.9239],['IND'],'亚洲 · 印度斋浦尔','旧城街道旁的宫殿','风之宫的粉红色外墙上，排列着许多小窗，像一面蜂巢。窗户让空气穿过，也让过去住在里面的人能够看见外面的街道。','它的名字可以理解成“风的宫殿”。','Hawa Mahal',['https://www.tourism.rajasthan.gov.in/hawa-mahal.html']),
+place('mohenjo-daro','摩亨佐达罗古城','Mohenjo-daro','🧱',[68.137,27.329],['PAK'],'亚洲 · 巴基斯坦','印度河谷的古城遗址','摩亨佐达罗是印度河谷里一座很古老的城市，今天留下许多砖墙和街道。房屋不是随便摆放的，人们很早就开始安排城市里的不同空间。','名字中的“印度河”，是一条河的名字，遗址位于今天的巴基斯坦。','Mohenjo-daro',[u(138)]),
+place('gunung-mulu','姆鲁国家公园','Gunung Mulu National Park','🕳️',[114.81,4.05],['MYS'],'亚洲 · 马来西亚婆罗洲','热带雨林、石灰岩与洞穴','姆鲁国家公园的雨林下，藏着弯弯曲曲的石灰岩洞穴，地面上还有尖尖的石林。雨水长年改变岩石，形成特别的地形，许多蝙蝠和小鸟把洞穴当作家。','洞穴和外面的森林相互联系，并不是孤零零的地下房间。','Gunung Mulu National Park',[u(1013)],true),
+place('louvre-museum','卢浮宫博物馆','Louvre Museum','🏛️',[2.3364,48.8606],['FRA'],'欧洲 · 法国巴黎','塞纳河旁的宫殿与博物馆','卢浮宫原来是宫殿，后来成为收藏绘画、雕塑和古代文物的博物馆。院子里的玻璃金字塔是入口，和旁边古老的石头建筑站在一起。','玻璃金字塔让光线照进地下入口，它不是法老的陵墓。','Louvre',['https://www.louvre.fr/en/explore/the-palace','https://www.louvre.fr/en/visit/tickets-and-prices']),
+place('leaning-tower-pisa','比萨斜塔','Leaning Tower of Pisa','🗼',[10.3966,43.723],['ITA'],'欧洲 · 意大利比萨','大教堂广场上的钟楼','比萨斜塔原来是一座报时的钟楼，圆圆的塔身外有一层层柱廊。它下面的地面支撑得不均匀，塔才慢慢倾斜，并不是故意盖歪的。','工程师后来仔细加固它，帮助这座老钟楼保持稳定。','Leaning Tower of Pisa',[u(395),'https://www.terredipisa.it/en/attrazione/the-leaning-tower-of-pisa/']),
+place('meteora-monasteries','迈泰奥拉修道院群','Meteora','⛰️',[21.627,39.713],['GRC'],'欧洲 · 希腊','砂岩石柱上的修道院','迈泰奥拉的高大岩柱上，建着一座座修道院，看起来像小房子站在石头巨人的肩膀上。修道院是人们居住、祈祷和学习的地方，并不是天然长出的建筑。','石头山峰是自然形成的，山上的房屋则是人们修建的。','Meteora',[u(455)]),
+place('great-sphinx','吉萨狮身人面像','Great Sphinx of Giza','🗿',[31.1376,29.9753],['EGY'],'非洲 · 埃及吉萨','金字塔附近的石灰岩台地','狮身人面像有狮子的身体和人的头部，是古埃及人从岩石中雕出的巨大石像。这样的组合用来表现国王的力量，并不是真实存在的动物。','它和金字塔在同一片吉萨遗址里，但形状和建造方式不同。','Great Sphinx of Giza',['https://egymonuments.gov.eg/en/monuments/the-great-sphinx/']),
+place('boulders-beach','博尔德斯企鹅海滩','Boulders Beach','🐧',[18.451,-34.197],['ZAF'],'非洲 · 南非西蒙镇','大岩石环绕的海滩','博尔德斯海滩的沙地和大岩石之间，生活着一群非洲企鹅。它们在岸边休息和繁殖，再到海里寻找食物，所以企鹅并不是只住在冰雪中。','这里生活的是非洲企鹅，和南极的帝企鹅不是同一种。','Boulders Beach',['https://www.sanparks.org/parks/table-mountain/what-to-%20do/attractions/boulders-penguin-colony'],true),
+place('banff-national-park','班夫国家公园','Banff National Park','🏞️',[-115.93,51.5],['CAN'],'北美洲 · 加拿大','落基山脉的高山、湖泊与森林','班夫国家公园里，高山、湖泊和森林连成一片，湖面会映出远处的雪峰。这里属于加拿大落基山地区，冰川长年运动留下的山谷和湖盆，也成了今天的风景。','山、湖和森林不是分开的摆设，它们通过水流和动物联系在一起。','Banff National Park',[u(304),'https://www.parcs.canada.ca/pn-np/ab/banff'],true),
+place('rapa-nui-moai','拉帕努伊摩艾石像','Moai of Rapa Nui','🗿',[-109.277,-27.126],['CHL'],'大洋洲 · 太平洋上的智利拉帕努伊岛','波利尼西亚的火山岛','拉帕努伊岛上有高大的摩艾石像，它们由当地人雕刻，用来纪念重要祖先。石像有长长的脸和身体，许多还站在石头平台上望向岛内。','这座岛行政上属于智利，实际位置却远在太平洋中。','Moai',[u(715),'https://www.metmuseum.org/essays/easter-island']),
+place('perito-moreno-glacier','佩里托莫雷诺冰川','Perito Moreno Glacier','🧊',[-73.05,-50.49],['ARG'],'南美洲 · 阿根廷巴塔哥尼亚','阿根廷湖旁的冰川前缘','佩里托莫雷诺冰川的前端来到阿根廷湖边，像一面带着裂纹的蓝白色冰墙。冰川会缓慢流动，前缘有时断下冰块，落进湖水里。','冰川是长年积雪逐渐压实形成的冰体，不是一次结出的湖冰。','Perito Moreno Glacier',[u(145),'https://www.argentina.gob.ar/parquesnacionales/patagonia-austral/parque-nacional-los-glaciares/actividades'],true),
+place('twelve-apostles','十二门徒岩','The Twelve Apostles','🪨',[143.104,-38.664],['AUS'],'大洋洲 · 澳大利亚维多利亚州','海岸边的石灰岩海蚀柱','十二门徒岩是一组站在海水中的石灰岩柱，原来曾与旁边的陆地相连。海浪、风和雨慢慢侵蚀海岸，留下这些独立的石头柱子。','“十二门徒”是景点名字，不表示现在一定能数到十二根。','The Twelve Apostles (Victoria)',['https://www.parks.vic.gov.au/get-into-nature/conservation-and-science/our-amazing-diversity/virtual-exploration/fly-over-the-twelve-apostles','https://www.dcceew.gov.au/parks-heritage/heritage/places/national/great-ocean-road'],true),
+];
+
+// Administrative association and geographical continent differ on this Pacific island.
+morePlaces.find(e=>e.id==='rapa-nui-moai').geographicContinent='oceania';

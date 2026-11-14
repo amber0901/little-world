@@ -22,7 +22,7 @@ export default function WorldMap({entries,images,category,active,focus,onSelect,
       if(place?.type==='country'&&['animal','beetle','marine'].includes(e.type)&&(!feature||!geoContains(feature,coords))){coords=place.coords;associationPoint=true;}
       if(place?.type==='ocean'&&e.type==='marine'){coords=place.coords;associationPoint=true;}
       let realm=mapRealm(e,countries);
-      if(e.type!=='marine'&&world){
+      if(e.type!=='marine'&&world&&!e.geographicContinent){
         const located=world.features.find(f=>geoContains(f,e.coords));
         const continent=continents.find(c=>c.en===located?.properties.CONTINENT);
         if(continent)realm=continent.name;
@@ -75,6 +75,7 @@ export default function WorldMap({entries,images,category,active,focus,onSelect,
           };
           return <path key={`${id}-${i}`} d={f.drawnPath} fill={continentColors[f.properties.CONTINENT]||'#d5d0b1'} strokeWidth={(selected?2.6:1)/view.k} className={`country-shape ${selected?'selected':''}`} role="button" aria-label={label} tabIndex={c?0:-1} onClick={open} onKeyDown={e=>{if(c&&(e.key==='Enter'||e.key===' ')){e.preventDefault();open();}}}><title>{label}</title></path>;
         })}</g>
+        <g className="small-islands">{entries.filter(e=>e.islandLabel).map(e=>{const p=projection(e.coords);return <g key={e.id} transform={`translate(${p[0]},${p[1]})`}><circle r={3/view.k} strokeWidth={1/view.k}><title>{e.islandLabel}</title></circle>{view.k>1.7&&<text x={7/view.k} y={3/view.k} fontSize={10/view.k} strokeWidth={2/view.k}>{e.islandLabel}</text>}</g>;})}</g>
       </g>
       {view.k<1.6&&continents.map(c=>{const p=projection(c.coords);return <g key={c.id} transform={`translate(${p[0]*view.k+view.x},${p[1]*view.k+view.y})`}><foreignObject x="-58" y="-12" width="116" height="40"><button className="continent-label" onClick={()=>onRegion(c)} aria-label={`认识${c.name}`}>{c.name}<small>{c.en}</small></button></foreignObject></g>;})}
       {oceans.map(o=>{const p=projection(o.coords),x=p[0]*view.k+view.x,y=p[1]*view.k+view.y;if(x<30||x>size.width-30||y<25||y>size.height-25)return null;return <g key={o.id} transform={`translate(${x},${y})`}><foreignObject x="-54" y="-18" width="108" height="48"><button className="ocean-label" onClick={()=>onRegion(o)} aria-label={`认识${o.name}`}>{o.name}<small>{o.en}</small></button></foreignObject></g>;})}
