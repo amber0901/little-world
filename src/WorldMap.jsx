@@ -6,7 +6,7 @@ import 'd3-transition';
 import {Plus,Minus,LocateFixed,Move} from 'lucide-react';
 import {continents,oceans,countries} from './data';
 import {continentColors,groupMarkers,mapRealm,mapPointForEntry} from './utils';
-import Picture from './Picture';
+import MapMarker,{MapLabel} from './MapMarker';
 import geography from './map-geography.json';
 import {createMapMotion,movedPoint} from './map-motion';
 function WorldMap({entries,images,category,active,focus,onSelect,onCountry,onRegion,onGroup,onHome,place}) {
@@ -14,6 +14,7 @@ function WorldMap({entries,images,category,active,focus,onSelect,onCountry,onReg
   const [view,setView]=useState({x:0,y:0,k:1}),[size,setSize]=useState({width:1000,height:620});
   const stageRef=useRef(),svgRef=useRef(),zoomRef=useRef(),landRef=useRef(),paperRef=useRef(),scaleRef=useRef();
   const viewRef=useRef(view),pointsRef=useRef([]),previousLayoutRef=useRef(null);
+  const appliedFocus=useRef(null),focusPending=useRef(false);
   const projection=useMemo(()=>geoNaturalEarth1().fitExtent([[20,65],[size.width-20,size.height-35]],{type:'Sphere'}),[size]);
   const path=useMemo(()=>geoPath(projection),[projection]);
   const shapes=useMemo(()=>world?.features.map(f=>({...f,drawnPath:path(f),drawnBounds:path.bounds(f)}))||[],[world,path]);
@@ -45,7 +46,7 @@ function WorldMap({entries,images,category,active,focus,onSelect,onCountry,onReg
     const motion=createMapMotion({requestFrame:fn=>window.requestAnimationFrame(fn),cancelFrame:id=>window.cancelAnimationFrame(id),paint,settle:v=>{if(alive)setView(v);}});
     const z=zoom().scaleExtent([1,10]).translateExtent([[0,0],[size.width,size.height]]).extent([[0,0],[size.width,size.height]]).clickDistance(7)
       .filter(e=>(!e.ctrlKey||e.type==='wheel')&&!e.button)
-      .on('start',e=>{stageRef.current.classList.add('map-moving');if(e.sourceEvent)select(svgRef.current).interrupt();})
+      .on('start',e=>{stageRef.current.classList.add('map-moving');if(e.sourceEvent){focusPending.current=false;select(svgRef.current).interrupt();}})
       .on('zoom',e=>{viewRef.current={x:e.transform.x,y:e.transform.y,k:e.transform.k};motion.update(viewRef.current);})
       .on('end',()=>{if(alive){stageRef.current.classList.remove('map-moving');motion.end(viewRef.current);}});
     zoomRef.current=z;
@@ -60,19 +61,21 @@ function WorldMap({entries,images,category,active,focus,onSelect,onCountry,onReg
     select(svgRef.current).call(z).on('dblclick.zoom',null).call(z.transform,t);
     return()=>{alive=false;motion.cancel();select(svgRef.current).interrupt().on('.zoom',null);};
   },[size,projection,paint]);
-  const appliedFocus=useRef(null);
   useEffect(()=>{
-    if(!focus||!zoomRef.current||appliedFocus.current===focus.key)return;
+    if(!focus||!zoomRef.current||(appliedFocus.current===focus.key&&!focusPending.current))return;
     appliedFocus.current=focus.key;
+    focusPending.current=true;
     const p=projection(focus.coords),k=focus.zoom||3;
     const t=zoomIdentity.translate(size.width/2-k*p[0],size.height/2-k*p[1]).scale(k);
     // Constrain programmatic travel just like touch panning, so the map cannot be lost.
     const c=zoomRef.current.constrain()(t,[[0,0],[size.width,size.height]],[[0,0],[size.width,size.height]]);
-    select(svgRef.current).interrupt().transition().duration(matchMedia('(prefers-reduced-motion: reduce)').matches?0:480).call(zoomRef.current.transform,c);
+    // A rotation or Safari toolbar resize can interrupt travel before it arrives.
+    // Resume that destination on the new projection; completed travel stays put.
+    select(svgRef.current).interrupt().transition().duration(matchMedia('(prefers-reduced-motion: reduce)').matches?0:480).call(zoomRef.current.transform,c).on('end.focus',()=>{focusPending.current=false;});
   },[focus,projection,size]);
   const groups=useMemo(()=>groupMarkers(groupedEntries,projection,view,size,active?.id,['country','ocean','area'].includes(place?.type)?0:size.width<650?57:64),[groupedEntries,projection,view,size,active,place]);
-  const changeZoom=factor=>select(svgRef.current).interrupt().transition().duration(220).call(zoomRef.current.scaleBy,factor);
-  const reset=()=>{onHome?.();select(svgRef.current).interrupt().transition().duration(350).call(zoomRef.current.transform,zoomIdentity);};
+  const changeZoom=factor=>{focusPending.current=false;select(svgRef.current).interrupt().transition().duration(220).call(zoomRef.current.scaleBy,factor);};
+  const reset=()=>{focusPending.current=false;onHome?.();select(svgRef.current).interrupt().transition().duration(350).call(zoomRef.current.transform,zoomIdentity);};
   const openGroup=g=>{const coords=projection.invert([(g.anchorX-view.x)/view.k,(g.anchorY-view.y)/view.k]);onGroup(g.items,coords,Math.min(10,Math.max(2,view.k*1.7)));};
   return <div className="map-stage" ref={stageRef}>
     <div className="map-paper" ref={paperRef}><span>一张地图，认识我们的世界</span><h1>世界，等你<span>点开看看。</span></h1></div>
@@ -96,14 +99,12 @@ function WorldMap({entries,images,category,active,focus,onSelect,onCountry,onReg
         })}</g>
       </g>
       <g className="small-islands">{entries.filter(e=>e.islandLabel).map(e=>{const p=projection(e.coords);return <g key={e.id} data-map-x={p[0]} data-map-y={p[1]}><circle r="3" strokeWidth="1"><title>{e.islandLabel}</title></circle><text className="small-island-label" x="7" y="3" fontSize="10" strokeWidth="2">{e.islandLabel}</text></g>;})}</g>
-      {continents.map(c=>{const p=projection(c.coords);return <g key={c.id} data-map-x={p[0]} data-map-y={p[1]} data-max-zoom="1.6"><foreignObject x="-58" y="-12" width="116" height="40"><button className="continent-label" onClick={()=>onRegion(c)} aria-label={`认识${c.name}`}>{c.name}<small>{c.en}</small></button></foreignObject></g>;})}
-      {oceans.map(o=>{const p=projection(o.coords);return <g key={o.id} data-map-x={p[0]} data-map-y={p[1]} data-cull=""><foreignObject x="-54" y="-18" width="108" height="48"><button className="ocean-label" onClick={()=>onRegion(o)} aria-label={`认识${o.name}`}>{o.name}<small>{o.en}</small></button></foreignObject></g>;})}
+      {continents.map(c=>{const p=projection(c.coords);return <g key={c.id} data-map-x={p[0]} data-map-y={p[1]} data-max-zoom="1.6"><MapLabel item={c} kind="continent" onSelect={()=>onRegion(c)}/></g>;})}
+      {oceans.map(o=>{const p=projection(o.coords);return <g key={o.id} data-map-x={p[0]} data-map-y={p[1]} data-cull=""><MapLabel item={o} kind="ocean" onSelect={()=>onRegion(o)}/></g>;})}
       {countries.map(c=>{const p=projection(c.coords);return <g key={c.id} data-map-x={p[0]} data-map-y={p[1]} data-min-zoom="1.7" data-cull=""><text y="25" className="country-name">{c.name}</text></g>;})}
       {groups.map(g=>{
         const e=g.items.find(e=>e.id===active?.id)||g.items[0],multi=g.items.length>1;
-        return <g key={g.id} data-cull="" data-map-x={(g.anchorX-view.x)/view.k} data-map-y={(g.anchorY-view.y)/view.k} data-map-dx={g.x-g.anchorX} data-map-dy={g.y-g.anchorY}>{Math.hypot(g.x-g.anchorX,g.y-g.anchorY)>9&&<line x1={g.anchorX-g.x} y1={g.anchorY-g.y} x2={0} y2={0} className="marker-leader"/>}<foreignObject x="-34" y="-34" width="68" height="88" overflow="visible"><button className={`map-marker ${e.type} ${g.active?'active':''} ${multi?'cluster':''}`} onClick={()=>multi?openGroup(g):onSelect(e)} aria-label={multi?`展开这一带的${g.items.length}个内容：${g.items.slice(0,3).map(e=>e.name).join('、')}`:`认识${e.name}`} title={multi?'点开看看这一带的全部内容':e.name}>
-          <span className="marker-frame"><Picture item={e} images={images} caption={false} small eager/>{multi&&<span className="cluster-count">{g.items.length}</span>}</span><span className="marker-caption">{multi?`${g.realm}这一带`:e.name}</span>
-        </button></foreignObject></g>;
+        return <g key={g.id} data-cull="" data-map-x={(g.anchorX-view.x)/view.k} data-map-y={(g.anchorY-view.y)/view.k} data-map-dx={g.x-g.anchorX} data-map-dy={g.y-g.anchorY}>{Math.hypot(g.x-g.anchorX,g.y-g.anchorY)>9&&<line x1={g.anchorX-g.x} y1={g.anchorY-g.y} x2={0} y2={0} className="marker-leader"/>}<MapMarker item={e} photo={images[e.id]} count={g.items.length} label={multi?`${g.realm}这一带`:e.name} active={g.active} onSelect={()=>multi?openGroup(g):onSelect(e)}/></g>;
       })}
     </svg>
     <div className="map-hint"><Move size={14}/>拖动地图 · 双指或滚轮缩放</div>

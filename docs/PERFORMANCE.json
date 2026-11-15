@@ -41,6 +41,8 @@
     "primarySidebarWebpBytes": 16095220,
     "sidebarReductionPercent": 58,
     "reactViewportUpdates": "gesture end only",
-    "physicalIpadTested": false
+    "physicalIpadTested": false,
+    "nativeSvgMapThumbnails": true,
+    "mapJpegThumbnailBytes": 1490791
   }
 }
