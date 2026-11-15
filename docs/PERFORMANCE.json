@@ -32,5 +32,15 @@
   "storyAudioCount": 359,
   "countryIntroductionCount": 700,
   "storyAudioBytes": 67777148,
-  "countryIntroductionBytes": 30514843
+  "countryIntroductionBytes": 30514843,
+  "ipadOptimization": {
+    "version": "2.4.0",
+    "targetSafari": "14",
+    "geographyIndexBytes": 14230,
+    "primaryFullWebpBytes": 37871250,
+    "primarySidebarWebpBytes": 16095220,
+    "sidebarReductionPercent": 58,
+    "reactViewportUpdates": "gesture end only",
+    "physicalIpadTested": false
+  }
 }

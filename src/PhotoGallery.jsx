@@ -1,8 +1,8 @@
-import {useState,useEffect} from 'react';
+import {memo,useState,useEffect} from 'react';
 import {Expand} from 'lucide-react';
 import Picture from './Picture';
 import {photosFor} from './media';
-export default function PhotoGallery({item,images,onView}) {
+function PhotoGallery({item,images,onView}) {
   const [index,setIndex]=useState(0);
   useEffect(()=>setIndex(0),[item.id]);
   const photos=photosFor(item.id,images),photo=photos[Math.min(index,Math.max(0,photos.length-1))];
@@ -16,3 +16,5 @@ export default function PhotoGallery({item,images,onView}) {
     {photo?.origin==='family'&&photo.identificationLevel!=='species'&&<p className="photo-identification">具体种类尚未确认，先认识这个类群。</p>}
   </section>;
 }
+
+export default memo(PhotoGallery);

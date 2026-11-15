@@ -16,6 +16,7 @@
 
 ## 地图怎么用
 
+- **全屏**：右上角点击“全屏”，再次点击退出；支持旧版iPad Safari的带前缀接口。若浏览器拒绝，按提示通过Safari添加到主屏幕。
 - **搜索**：顶部输入名字后点“搜索”或按回车。可以切换类别；从国家介绍里的搜索入口进入时默认只找这个国家，也可切回整个世界。
 - **点国家**：地图聚焦这个国家，并显示相关动物、甲虫、地标和自然风景；侧边可以逐个点开。
 - **点图片**：查看真实照片和介绍，听讲解。卡片里的国家、大洋按钮可以继续跳转。从国家进入时，会先播放“你现在在某国的地图上，看到的是某内容”，再接着介绍它；不会把动物园拍摄地点当作原生地。
@@ -111,7 +112,7 @@ Dockerfile / compose.yaml    腾讯云单机部署
 3. `python3 scripts/fetch-images.py` 将可授权的参考原图及元数据保存到本地素材目录，跳过已有文件；可用`FETCH_ONLY=条目ID`限定新增条目。若默认图是标志或地图，在`scripts/image-overrides.json`指定已核查文件。亲子照片沿用[实拍维护流程](docs/FAMILY_MATERIALS.md)，不添加前端上传功能。
 4. 安装`requirements-media.txt`中的Pillow后执行`npm run assets:images`，生成160像素地图图、320像素列表图和640/1280长边详情图，提供WebP及JPEG兼容版本，清除拍摄元数据。`assets:thumbnails`为兼容别名。工具仅用于制作，非Docker运行依赖。
 5. `npm run assets:audio` 使用腾讯云云小朵（403000、语速−0.65、24kHz）生成本地M4A，与百家姓正式版保持同一音色参数；需要Python 3、FFmpeg和本地腾讯云凭据，详见[语音制作说明](docs/VOICE_PRODUCTION.md)。只补录文字或音色配置变更的片段，可复用Git内已有录音，不要求携带本地原始缓存。国家开场先播，再接共享正文。
-6. 运行 `npm test`、`npm run check:assets` 与 `npm run build`。素材检查会发现缺图、缺缩略图、缺音频、缺授权或音频文字已变更的问题。
+6. 运行 `npm run assets:map` 更新预计算地理索引，再运行 `npm test`、`npm run check:assets` 与 `npm run build`。素材检查会发现缺图、缺缩略图、缺音频、缺授权或音频文字已变更的问题。
 
 播放端只使用预制音频，让PC和iPad的音色一致。索引加载失败时提示重试；不会切换为设备系统朗读。腾讯云凭据只用于本地制作，不进入Git、Docker镜像或浏览器。
 
@@ -126,5 +127,6 @@ Dockerfile / compose.yaml    腾讯云单机部署
 - [图片作者与许可](docs/ASSET_CREDITS.md)
 - [亲子实拍识别依据](docs/ZOO_IDENTIFICATION.md)与[后续维护流程](docs/FAMILY_MATERIALS.md)
 - [压缩与缓存记录](docs/PERFORMANCE.md)
+- [iPadOS 14.2性能与全屏优化](docs/IPAD_OPTIMIZATION.md)
 
 底图为 [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/) 1:110m 公共领域概略数据，国界、海岸和小岛有简化，台湾区域点击关联中国介绍，用于自然地理启蒙，不作为标准国界地图。自编代码和中文文字使用 MIT；参考照片及其衍生图遵循各自CC BY、CC BY-SA或公共领域许可；用户实拍未另行授予开放许可。所有图片都不纳入代码MIT许可证。中文讲解由腾讯云语音合成制作；底层服务与音色不纳入代码MIT许可证。
